@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>w-shop-portal-web</module>
+        <module>w-shop-portal-pay-web</module>
+    </modules>
+    <parent>
+    <groupId>com.wjr</groupId>
+    <artifactId>w-shop-parent</artifactId>
+    <version>0.0.1-RELEASE</version>
+  </parent>
+  <artifactId>w-shop-portal</artifactId>
+  <packaging>pom</packaging>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-freemarker</artifactId>
+    </dependency>
+    <dependency>
+      <artifactId>w-shop-common-web-core</artifactId>
+      <groupId>com.wjr</groupId>
+      <version>0.0.1-RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>com.wjr</groupId>
+      <artifactId>w-shop-service-api-member</artifactId>
+      <version>0.0.1-RELEASE</version>
+    </dependency>
+    <!--spring session 与redis应用基本环境配置,需要开启redis后才可以使用，不然启动Spring boot会报错 -->
+    <dependency>
+      <groupId>org.springframework.session</groupId>
+      <artifactId>spring-session-data-redis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-pool2</artifactId>
+    </dependency>
+    <!-- 最稳定的版本redis -->
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+    <!-- sso core -->
+    <dependency>
+      <groupId>com.xuxueli</groupId>
+      <artifactId>xxl-sso-core</artifactId>
+      <version>1.1.1-RELEASE</version>
+    </dependency>
+  </dependencies>
+  <build/>
+</project>

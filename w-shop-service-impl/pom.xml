@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.wjr</groupId>
+    <artifactId>w-shop-parent</artifactId>
+    <version>0.0.1-RELEASE</version>
+  </parent>
+  <artifactId>w-shop-service-impl</artifactId>
+  <packaging>pom</packaging>
+  <build/>
+  <modules>
+  	<module>w-shop-service-weixin</module>
+  	<module>w-shop-service-member</module>
+      <module>w-shop-service-goods</module>
+      <module>w-shop-service-pay</module>
+      <module>w-shop-service-integral</module>
+      <module>w-shop-service-auth</module>
+      <module>w-shop-service-spike</module>
+  </modules>
+  
+  <dependencies>
+  	<!-- SpringCloud整合fegnin客户端 -->
+	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-openfeign</artifactId>
+	</dependency>
+	<!-- SpringCloud整合阿波罗分布式配置中心 -->
+	<dependency>
+		<groupId>com.ctrip.framework.apollo</groupId>
+		<artifactId>apollo-client</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.ctrip.framework.apollo</groupId>
+		<artifactId>apollo-core</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+  </dependencies>
+</project>

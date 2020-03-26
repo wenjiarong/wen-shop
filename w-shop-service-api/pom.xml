@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.wjr</groupId>
+    <artifactId>w-shop-parent</artifactId>
+    <version>0.0.1-RELEASE</version>
+  </parent>
+  <artifactId>w-shop-service-api</artifactId>
+  <packaging>pom</packaging>
+  <build/>
+  <modules>
+  	<module>w-shop-service-api-weixin</module>
+  	<module>w-shop-service-api-member</module>
+    <module>w-shop-service-api-goods</module>
+      <module>w-shop-service-api-pay</module>
+      <module>w-shop-service-api-integral</module>
+      <module>w-shop-service-api-auth</module>
+      <module>w-shop-service-api-spike</module>
+  </modules>
+
+  <dependencies>
+	<dependency>
+	  <groupId>com.wjr</groupId>
+	  <artifactId>w-shop-common-core</artifactId>
+	  <version>0.0.1-RELEASE</version>
+	</dependency>
+
+	<!--注意限定版本一定为RELEASE,因为上传的对应仓库的存储类型为RELEASE -->
+	<!--指定仓库地址 -->
+	<!--<distributionManagement>
+		<repository>
+			&lt;!&ndash;此名称要和.m2/settings.xml中设置的ID一致 &ndash;&gt;
+			<id>wenjiarong</id>
+			<url>http://192.168.162.128:8081/repository/w-release/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<plugins>
+			&lt;!&ndash;发布代码Jar插件 &ndash;&gt;
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.7</version>
+			</plugin>
+			&lt;!&ndash;发布源码插件 &ndash;&gt;
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>2.2.1</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>-->
+
+  </dependencies>
+</project>

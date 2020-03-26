@@ -1,0 +1,819 @@
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'registerVo' of type [com.w.member.controller.req.vo.RegisterVo] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.validation.BindingResult.registerVo' of type [org.springframework.validation.BeanPropertyBindingResult] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'error' of type [java.lang.String] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'request' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.session.SessionRepository.invalidSessionId' of type [java.lang.String] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.context.request.async.WebAsyncManager.WEB_ASYNC_MANAGER' of type [org.springframework.web.context.request.async.WebAsyncManager] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.CONTEXT' of type [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'hiddenHttpMethodFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.session.web.http.SessionRepositoryFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.resource.ResourceUrlProvider' of type [org.springframework.web.servlet.resource.ResourceUrlProvider] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.View.selectedContentType' of type [org.springframework.http.MediaType] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'xxl_sso_user' of type [com.xxl.sso.core.user.XxlSsoUser] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.session.SessionRepository' of type [org.springframework.session.data.redis.RedisOperationsSessionRepository] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'characterEncodingFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE' of type [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER' of type [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver] to request in view with name 'member/register'
+54934 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.HandlerMapping.bestMatchingPattern' of type [java.lang.String] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'requestContextFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.OUTPUT_FLASH_MAP' of type [org.springframework.web.servlet.FlashMap] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'httpPutFormContentFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping' of type [java.lang.String] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.FLASH_MAP_MANAGER' of type [org.springframework.web.servlet.support.SessionFlashMapManager] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.HandlerMapping.uriTemplateVariables' of type [java.util.LinkedHashMap] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.session.SessionRepository.CURRENT_SESSION' of type [org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper$HttpSessionWrapper] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER' of type [org.springframework.web.servlet.theme.FixedThemeResolver] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'org.springframework.core.convert.ConversionService' of type [org.springframework.boot.autoconfigure.web.format.WebConversionService] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  Rendering FreeMarker template [member/register.ftl] in FreeMarkerView 'member/register'
+54935 DEBUG [2019-11-09 10:48:54]  "member/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+54958 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+54959 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+54960 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+54960 DEBUG [2019-11-09 10:48:54]  "base/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since E:\ideaWorkspace\w-shop-parent\w-shop-portal\w-shop-portal-web\target\classes\templates\base\bottom.ftl hasn't changed.
+54960 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54960 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54960 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54960 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54960 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54961 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54961 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54961 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54961 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54961 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54961 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54961 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54961 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54961 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54962 DEBUG [2019-11-09 10:48:54]  Successfully completed request
+54962 DEBUG [2019-11-09 10:48:54]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@410d17
+54986 DEBUG [2019-11-09 10:48:54]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@217e03b
+54988 DEBUG [2019-11-09 10:48:54]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/getVerify]
+54989 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54994 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54996 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+54996 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+54996 DEBUG [2019-11-09 10:48:54]  Looking up handler method for path /getVerify
+54997 DEBUG [2019-11-09 10:48:54]  Returning handler method [public void com.w.code.VerifyController.getVerify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+54997 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'verifyController'
+54997 DEBUG [2019-11-09 10:48:54]  Last-Modified value for [/getVerify] is: -1
+55005 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55006 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55006 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55006 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55006 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55006 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55006 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55007 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55007 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55007 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55007 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55007 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55007 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55007 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55011 DEBUG [2019-11-09 10:48:54]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+55011 DEBUG [2019-11-09 10:48:54]  Successfully completed request
+55011 DEBUG [2019-11-09 10:48:54]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@217e03b
+55011 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55011 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55079 DEBUG [2019-11-09 10:48:54]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@67606164
+55080 DEBUG [2019-11-09 10:48:54]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
+55081 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55082 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55083 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55083 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55083 DEBUG [2019-11-09 10:48:54]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
+55083 DEBUG [2019-11-09 10:48:54]  URI Template variables for request [/favicon.ico] are {}
+55083 DEBUG [2019-11-09 10:48:54]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@76d1f6ea]]] and 1 interceptor
+55084 DEBUG [2019-11-09 10:48:54]  Last-Modified value for [/favicon.ico] is: -1
+55105 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55105 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55105 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55105 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55105 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55106 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55106 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55106 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55106 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55106 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55106 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55106 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55107 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55107 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+55107 DEBUG [2019-11-09 10:48:54]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+55107 DEBUG [2019-11-09 10:48:54]  Successfully completed request
+55107 DEBUG [2019-11-09 10:48:54]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@67606164
+55107 DEBUG [2019-11-09 10:48:54]  Opening RedisConnection
+55108 DEBUG [2019-11-09 10:48:54]  Closing Redis Connection
+60428 DEBUG [2019-11-09 10:49:00]  Returning cached instance of singleton bean 'sessionRepository'
+60428 DEBUG [2019-11-09 10:49:00]  Cleaning up sessions expiring at Sat Nov 09 10:49:00 CST 2019
+60428 DEBUG [2019-11-09 10:49:00]  Opening RedisConnection
+60430 DEBUG [2019-11-09 10:49:00]  Closing Redis Connection
+60431 DEBUG [2019-11-09 10:49:00]  Opening RedisConnection
+60431 DEBUG [2019-11-09 10:49:00]  Closing Redis Connection
+75500 DEBUG [2019-11-09 10:49:15]  Closing connections idle longer than 30000 SECONDS
+75500 DEBUG [2019-11-09 10:49:15]  Closing connections idle longer than 30000 SECONDS
+76907 DEBUG [2019-11-09 10:49:16]  Get connection: {}->http://localhost:8080, timeout = 5000
+76907 DEBUG [2019-11-09 10:49:16]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+76907 DEBUG [2019-11-09 10:49:16]  Getting free connection [{}->http://localhost:8080][null]
+76907 DEBUG [2019-11-09 10:49:16]  Stale connection check
+76909 DEBUG [2019-11-09 10:49:16]  CookieSpec selected: default
+76909 DEBUG [2019-11-09 10:49:16]  Auth cache not set in the context
+76909 DEBUG [2019-11-09 10:49:16]  Target auth state: UNCHALLENGED
+76909 DEBUG [2019-11-09 10:49:16]  Get connection: {}->http://localhost:8080, timeout = 5000
+76909 DEBUG [2019-11-09 10:49:16]  Proxy auth state: UNCHALLENGED
+76909 DEBUG [2019-11-09 10:49:16]  Attempt 1 to execute request
+76909 DEBUG [2019-11-09 10:49:16]  [{}->http://localhost:8080] total kept alive: 1, total issued: 1, total allocated: 2 out of 200
+76909 DEBUG [2019-11-09 10:49:16]  Getting free connection [{}->http://localhost:8080][null]
+76909 DEBUG [2019-11-09 10:49:16]  Sending request: GET /eureka/apps/delta HTTP/1.1
+76909 DEBUG [2019-11-09 10:49:16]  Stale connection check
+76909 DEBUG [2019-11-09 10:49:16]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "Accept: application/json[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "Accept-Encoding: gzip[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "Host: localhost:8080[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "Connection: Keep-Alive[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]   >> "[\r][\n]"
+76910 DEBUG [2019-11-09 10:49:16]  >> GET /eureka/apps/delta HTTP/1.1
+76910 DEBUG [2019-11-09 10:49:16]  >> Accept: application/json
+76910 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Name: DefaultClient
+76910 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Version: 1.4
+76910 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Id: 192.168.32.1
+76910 DEBUG [2019-11-09 10:49:16]  >> Accept-Encoding: gzip
+76911 DEBUG [2019-11-09 10:49:16]  >> Host: localhost:8080
+76911 DEBUG [2019-11-09 10:49:16]  >> Connection: Keep-Alive
+76911 DEBUG [2019-11-09 10:49:16]  >> User-Agent: Java-EurekaClient/v1.9.3
+76911 DEBUG [2019-11-09 10:49:16]  CookieSpec selected: default
+76911 DEBUG [2019-11-09 10:49:16]  Auth cache not set in the context
+76911 DEBUG [2019-11-09 10:49:16]  Target auth state: UNCHALLENGED
+76911 DEBUG [2019-11-09 10:49:16]  Proxy auth state: UNCHALLENGED
+76911 DEBUG [2019-11-09 10:49:16]  Attempt 1 to execute request
+76911 DEBUG [2019-11-09 10:49:16]  Sending request: PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+76911 DEBUG [2019-11-09 10:49:16]   >> "PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "Accept-Encoding: gzip[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "Content-Length: 0[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "Host: localhost:8080[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "Connection: Keep-Alive[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   << "HTTP/1.1 200 OK[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   >> "[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]   << "Server: Apache-Coyote/1.1[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]  >> PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+76911 DEBUG [2019-11-09 10:49:16]   << "X-Content-Type-Options: nosniff[\r][\n]"
+76911 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Name: DefaultClient
+76912 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Version: 1.4
+76912 DEBUG [2019-11-09 10:49:16]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]  >> DiscoveryIdentity-Id: 192.168.32.1
+76912 DEBUG [2019-11-09 10:49:16]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "Pragma: no-cache[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]  >> Accept-Encoding: gzip
+76912 DEBUG [2019-11-09 10:49:16]   << "Expires: 0[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]  >> Content-Length: 0
+76912 DEBUG [2019-11-09 10:49:16]  >> Host: localhost:8080
+76912 DEBUG [2019-11-09 10:49:16]  >> Connection: Keep-Alive
+76912 DEBUG [2019-11-09 10:49:16]  >> User-Agent: Java-EurekaClient/v1.9.3
+76912 DEBUG [2019-11-09 10:49:16]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "Content-Encoding: gzip[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "Content-Type: application/json[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "Content-Length: 561[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "Date: Sat, 09 Nov 2019 02:49:16 GMT[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]   << "[\r][\n]"
+76912 DEBUG [2019-11-09 10:49:16]  Receiving response: HTTP/1.1 200 OK
+76912 DEBUG [2019-11-09 10:49:16]  << HTTP/1.1 200 OK
+76912 DEBUG [2019-11-09 10:49:16]  << Server: Apache-Coyote/1.1
+76912 DEBUG [2019-11-09 10:49:16]  << X-Content-Type-Options: nosniff
+76912 DEBUG [2019-11-09 10:49:16]  << X-XSS-Protection: 1; mode=block
+76913 DEBUG [2019-11-09 10:49:16]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+76913 DEBUG [2019-11-09 10:49:16]  << Pragma: no-cache
+76913 DEBUG [2019-11-09 10:49:16]  << Expires: 0
+76913 DEBUG [2019-11-09 10:49:16]  << X-Frame-Options: SAMEORIGIN
+76913 DEBUG [2019-11-09 10:49:16]  << Content-Encoding: gzip
+76913 DEBUG [2019-11-09 10:49:16]  << Content-Type: application/json
+76913 DEBUG [2019-11-09 10:49:16]  << Content-Length: 561
+76913 DEBUG [2019-11-09 10:49:16]  << Date: Sat, 09 Nov 2019 02:49:16 GMT
+76913 DEBUG [2019-11-09 10:49:16]  Connection can be kept alive indefinitely
+76913 DEBUG [2019-11-09 10:49:16]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]I @[0x13][0xc8][0xd3]R[0xb2][0xaa]P[6[0xe2]R[0x1e][0xaa]*[0xf2][0xda][0x3][0xb1][0x9a][0xd8][0x91][0xed]@[0x11][0xe2][0xdf]wL[0x9a][0xbd]uQ[0xb5][0xca]C[0xe2][0xf1][0x99]33[0xe7]LN[0x84]VU![0x18][0xb5]BIC[0xe2][0x13][0xd9][0x83]6[0xee];[0xcb]8[0x14][0x96][0x92][0x98][0xf4][0xc7][0xa4][0xe3]`[0x18][0xca][0xa9][0xc9][0x99][0xe2][0x80][0xd1][0xe5]j[0xb2]X[0xcd][0xe6]_[0xb2] [[0xa7]Y[0x94]5[0x98][0x96][0x8a][0xc4]?OD[0xd2][0xd2]!'i[0xea]m[0xbc][0xf4]~[0xb1][0x9a]|[0xf3]6w[0x9f][0x11])[0xa4][0xb1]T2[0xb8][0xc0][0xda][0xc3][0x8c]#[0xf8] $W[0x7][0x13][0xf4][0xfc]R0[0xad][0xb8][0x92][0xe0]3[0x19]#[0xb5]w[0xf0]*[0xa5]--[0xbc][0x3]<[0xc4][0xa3][0x1e][0xd2][0xe4][0xca][0xd8]yS[0xe4][0xfd][0xbc][0xa6][0xa9]+=T[0x13][0xce]5[0xde][0x5][0xe3][0xbe][0x1f][0x84]#[0x80]/[0x8c]c3[0xb6]F)[0xc8]:[0xc5][0x93]B=[0xb4][0xe0][0x1c][0xe4]s|[0xfe]u~[0xbf][0x99][0xe3][0xa5][0xeb][0xc7]ivC[0xb0][0x9f][0xe][0xb9][0x5]I[0x1f][\n]"
+76914 DEBUG [2019-11-09 10:49:16]   << "pcX][0x3]9#[0x19][0xb0]ZC[0xfa][0x8c][0x1b][0xe][0x7][0xaf][0x80][Z[0x98][0xb][0x92][0xa9]ZZ}t"[0x4][0x1d][0xc2][0xa9][0xa5]S[0x90][0x16][0xf4]Ln[0x95][0xcb][0xbd]e[0x5]5[0xae]<S[0xa5]/[0xc1]n[0xb][0xf1][0xc7][0xc7][0xe1][0x4][0xde][0xfb][0xb3]VB<[0xdc]$[0xb0][0xa5]ua[0x93][0xd7][0x14][0x9d][0xd6][0x8e][0xef][0xc7][0xfb][0x83]t[0x15][0xb][0xa0][0x6]Zz[\r][0x12][0xe][0xb4][0x98]9[0xfc][0xde][0xbd][0x97][0xc0][0xb0][0xda][0x0][0xc7][0xe2][0xb5][0xbe]x[0xda][0xc6][0xc6][0x18][0xd3][0xb0][0x13][0xc6]6[0xf1][0x95]([0x1][0xcb][0x97][0xa8]s[0xf0])[0x1a][0xf4][0xc3]([0x1c]G[0xbd][0x10][0xe7][0xc4][0x8e][0xed][0xa2]![0xbe][0xe][0x82][0xbd]`ohzN8[0x8d]qXW[0xff]$[0x86]Q[0x14][\r][0x7][0x11][0xe]P[0x82][0xa5]N([0xd7]I%[0xdd]A[0x89][0xf3][0xfa][0x8d]+[0x4]7[0xe4][0xec]V[0xa4][0x84][0x14]o[0xd6][0xba][0xc0]Xnm[0x15]w[0xbb]W[0x96]l[0xd4][0xeb]>[0xf9][0xff][0x81][0x1c][0xca]lM[0xad][0xd2]][0xd1][0xe8][0x9c][0x3]-l>[0xcd][0x81][0xfd][0xfe](C[0x93][0x8a][0x1c][0xfb]f;[0xe1][0xe2][0xf8][0xdb][0xe5]'[0xed]^[0xfd][0xf8][0xf]J[0x98][0xa9]R[0x9a][0xb][0x89]>[0xc9]]"[0xc]s[0xeb]|\[0xa2][0xb6][0xa0][0x9f][0x96][0xaf][0xf1]i][0xa1][0x94][0xc0]_[0xc8]M^[0x1a]5[0xfc][0xb]K[0x84][0xb6][0xc7]wA[0xe1]p[0x14][0xba][0xff][0xad]1[0xf3]X]~[0xfd]$[0xb9]K[0xc8][0xf9][0x17]>[0xe7]G41[0x19][0x93]k[0x4][0x0][0x0]"
+76914 DEBUG [2019-11-09 10:49:16]   << "HTTP/1.1 200 OK[\r][\n]"
+76915 DEBUG [2019-11-09 10:49:16]  Released connection is reusable.
+76915 DEBUG [2019-11-09 10:49:16]   << "Server: Apache-Coyote/1.1[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "X-Content-Type-Options: nosniff[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]  Releasing connection [{}->http://localhost:8080][null]
+76916 DEBUG [2019-11-09 10:49:16]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+76916 DEBUG [2019-11-09 10:49:16]  Notifying no-one, there are no waiting threads
+76916 DEBUG [2019-11-09 10:49:16]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "Pragma: no-cache[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "Expires: 0[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "Content-Type: application/xml[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "Content-Length: 0[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "Date: Sat, 09 Nov 2019 02:49:16 GMT[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]   << "[\r][\n]"
+76916 DEBUG [2019-11-09 10:49:16]  Receiving response: HTTP/1.1 200 OK
+76916 DEBUG [2019-11-09 10:49:16]  << HTTP/1.1 200 OK
+76916 DEBUG [2019-11-09 10:49:16]  << Server: Apache-Coyote/1.1
+76916 DEBUG [2019-11-09 10:49:16]  << X-Content-Type-Options: nosniff
+76916 DEBUG [2019-11-09 10:49:16]  << X-XSS-Protection: 1; mode=block
+76916 DEBUG [2019-11-09 10:49:16]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+76916 DEBUG [2019-11-09 10:49:16]  << Pragma: no-cache
+76916 DEBUG [2019-11-09 10:49:16]  << Expires: 0
+76916 DEBUG [2019-11-09 10:49:16]  << X-Frame-Options: SAMEORIGIN
+76916 DEBUG [2019-11-09 10:49:16]  << Content-Type: application/xml
+76916 DEBUG [2019-11-09 10:49:16]  << Content-Length: 0
+76916 DEBUG [2019-11-09 10:49:16]  << Date: Sat, 09 Nov 2019 02:49:16 GMT
+76916 DEBUG [2019-11-09 10:49:16]  Connection can be kept alive indefinitely
+76917 DEBUG [2019-11-09 10:49:16]  Released connection is reusable.
+76917 DEBUG [2019-11-09 10:49:16]  Releasing connection [{}->http://localhost:8080][null]
+76917 DEBUG [2019-11-09 10:49:16]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+76917 DEBUG [2019-11-09 10:49:16]  Notifying no-one, there are no waiting threads
+105502 DEBUG [2019-11-09 10:49:45]  Closing connections idle longer than 30000 SECONDS
+105502 DEBUG [2019-11-09 10:49:45]  Closing connections idle longer than 30000 SECONDS
+106918 DEBUG [2019-11-09 10:49:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+106918 DEBUG [2019-11-09 10:49:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+106918 DEBUG [2019-11-09 10:49:46]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+106918 DEBUG [2019-11-09 10:49:46]  Getting free connection [{}->http://localhost:8080][null]
+106918 DEBUG [2019-11-09 10:49:46]  Stale connection check
+106918 DEBUG [2019-11-09 10:49:46]  [{}->http://localhost:8080] total kept alive: 1, total issued: 1, total allocated: 2 out of 200
+106918 DEBUG [2019-11-09 10:49:46]  Getting free connection [{}->http://localhost:8080][null]
+106918 DEBUG [2019-11-09 10:49:46]  Stale connection check
+106920 DEBUG [2019-11-09 10:49:46]  CookieSpec selected: default
+106920 DEBUG [2019-11-09 10:49:46]  CookieSpec selected: default
+106920 DEBUG [2019-11-09 10:49:46]  Auth cache not set in the context
+106920 DEBUG [2019-11-09 10:49:46]  Target auth state: UNCHALLENGED
+106920 DEBUG [2019-11-09 10:49:46]  Proxy auth state: UNCHALLENGED
+106920 DEBUG [2019-11-09 10:49:46]  Auth cache not set in the context
+106921 DEBUG [2019-11-09 10:49:46]  Attempt 1 to execute request
+106921 DEBUG [2019-11-09 10:49:46]  Target auth state: UNCHALLENGED
+106921 DEBUG [2019-11-09 10:49:46]  Sending request: GET /eureka/apps/delta HTTP/1.1
+106921 DEBUG [2019-11-09 10:49:46]  Proxy auth state: UNCHALLENGED
+106921 DEBUG [2019-11-09 10:49:46]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]  Attempt 1 to execute request
+106921 DEBUG [2019-11-09 10:49:46]   >> "Accept: application/json[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]  Sending request: PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "Accept-Encoding: gzip[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "Host: localhost:8080[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "Connection: Keep-Alive[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+106921 DEBUG [2019-11-09 10:49:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]   >> "[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]   >> "Accept-Encoding: gzip[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]   >> "Content-Length: 0[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]  >> GET /eureka/apps/delta HTTP/1.1
+106922 DEBUG [2019-11-09 10:49:46]   >> "Host: localhost:8080[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]  >> Accept: application/json
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Name: DefaultClient
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Version: 1.4
+106922 DEBUG [2019-11-09 10:49:46]   >> "Connection: Keep-Alive[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+106922 DEBUG [2019-11-09 10:49:46]  >> Accept-Encoding: gzip
+106922 DEBUG [2019-11-09 10:49:46]  >> Host: localhost:8080
+106922 DEBUG [2019-11-09 10:49:46]  >> Connection: Keep-Alive
+106922 DEBUG [2019-11-09 10:49:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+106922 DEBUG [2019-11-09 10:49:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]   >> "[\r][\n]"
+106922 DEBUG [2019-11-09 10:49:46]  >> PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Name: DefaultClient
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Version: 1.4
+106922 DEBUG [2019-11-09 10:49:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+106922 DEBUG [2019-11-09 10:49:46]  >> Accept-Encoding: gzip
+106922 DEBUG [2019-11-09 10:49:46]  >> Content-Length: 0
+106922 DEBUG [2019-11-09 10:49:46]  >> Host: localhost:8080
+106922 DEBUG [2019-11-09 10:49:46]  >> Connection: Keep-Alive
+106922 DEBUG [2019-11-09 10:49:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+106923 DEBUG [2019-11-09 10:49:46]   << "HTTP/1.1 200 OK[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Pragma: no-cache[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Expires: 0[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Content-Encoding: gzip[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Content-Type: application/json[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Content-Length: 561[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "Date: Sat, 09 Nov 2019 02:49:46 GMT[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]   << "[\r][\n]"
+106923 DEBUG [2019-11-09 10:49:46]  Receiving response: HTTP/1.1 200 OK
+106923 DEBUG [2019-11-09 10:49:46]  << HTTP/1.1 200 OK
+106923 DEBUG [2019-11-09 10:49:46]  << Server: Apache-Coyote/1.1
+106923 DEBUG [2019-11-09 10:49:46]  << X-Content-Type-Options: nosniff
+106923 DEBUG [2019-11-09 10:49:46]  << X-XSS-Protection: 1; mode=block
+106923 DEBUG [2019-11-09 10:49:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+106923 DEBUG [2019-11-09 10:49:46]  << Pragma: no-cache
+106923 DEBUG [2019-11-09 10:49:46]  << Expires: 0
+106923 DEBUG [2019-11-09 10:49:46]  << X-Frame-Options: SAMEORIGIN
+106923 DEBUG [2019-11-09 10:49:46]  << Content-Encoding: gzip
+106923 DEBUG [2019-11-09 10:49:46]  << Content-Type: application/json
+106923 DEBUG [2019-11-09 10:49:46]  << Content-Length: 561
+106923 DEBUG [2019-11-09 10:49:46]  << Date: Sat, 09 Nov 2019 02:49:46 GMT
+106923 DEBUG [2019-11-09 10:49:46]  Connection can be kept alive indefinitely
+106924 DEBUG [2019-11-09 10:49:46]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]I @[0x13][0xc8][0xd3]R[0xb2][0xaa]P[6[0xe2]R[0x1e][0xaa]*[0xf2][0xda][0x3][0xb1][0x9a][0xd8][0x91][0xed]@[0x11][0xe2][0xdf]wL[0x9a][0xbd]uQ[0xb5][0xca]C[0xe2][0xf1][0x99]33[0xe7]LN[0x84]VU![0x18][0xb5]BIC[0xe2][0x13][0xd9][0x83]6[0xee];[0xcb]8[0x14][0x96][0x92][0x98][0xf4][0xc7][0xa4][0xe3]`[0x18][0xca][0xa9][0xc9][0x99][0xe2][0x80][0xd1][0xe5]j[0xb2]X[0xcd][0xe6]_[0xb2] [[0xa7]Y[0x94]5[0x98][0x96][0x8a][0xc4]?OD[0xd2][0xd2]!'i[0xea]m[0xbc][0xf4]~[0xb1][0x9a]|[0xf3]6w[0x9f][0x11])[0xa4][0xb1]T2[0xb8][0xc0][0xda][0xc3][0x8c]#[0xf8] $W[0x7][0x13][0xf4][0xfc]R0[0xad][0xb8][0x92][0xe0]3[0x19]#[0xb5]w[0xf0]*[0xa5]--[0xbc][0x3]<[0xc4][0xa3][0x1e][0xd2][0xe4][0xca][0xd8]yS[0xe4][0xfd][0xbc][0xa6][0xa9]+=T[0x13][0xce]5[0xde][0x5][0xe3][0xbe][0x1f][0x84]#[0x80]/[0x8c]c3[0xb6]F)[0xc8]:[0xc5][0x93]B=[0xb4][0xe0][0x1c][0xe4]s|[0xfe]u~[0xbf][0x99][0xe3][0xa5][0xeb][0xc7]ivC[0xb0][0x9f][0xe][0xb9][0x5]I[0x1f][\n]"
+106924 DEBUG [2019-11-09 10:49:46]   << "pcX][0x3]9#[0x19][0xb0]ZC[0xfa][0x8c][0x1b][0xe][0x7][0xaf][0x80][Z[0x98][0xb][0x92][0xa9]ZZ}t"[0x4][0x1d][0xc2][0xa9][0xa5]S[0x90][0x16][0xf4]Ln[0x95][0xcb][0xbd]e[0x5]5[0xae]<S[0xa5]/[0xc1]n[0xb][0xf1][0xc7][0xc7][0xe1][0x4][0xde][0xfb][0xb3]VB<[0xdc]$[0xb0][0xa5]ua[0x93][0xd7][0x14][0x9d][0xd6][0x8e][0xef][0xc7][0xfb][0x83]t[0x15][0xb][0xa0][0x6]Zz[\r][0x12][0xe][0xb4][0x98]9[0xfc][0xde][0xbd][0x97][0xc0][0xb0][0xda][0x0][0xc7][0xe2][0xb5][0xbe]x[0xda][0xc6][0xc6][0x18][0xd3][0xb0][0x13][0xc6]6[0xf1][0x95]([0x1][0xcb][0x97][0xa8]s[0xf0])[0x1a][0xf4][0xc3]([0x1c]G[0xbd][0x10][0xe7][0xc4][0x8e][0xed][0xa2]![0xbe][0xe][0x82][0xbd]`ohzN8[0x8d]qXW[0xff]$[0x86]Q[0x14][\r][0x7][0x11][0xe]P[0x82][0xa5]N([0xd7]I%[0xdd]A[0x89][0xf3][0xfa][0x8d]+[0x4]7[0xe4][0xec]V[0xa4][0x84][0x14]o[0xd6][0xba][0xc0]Xnm[0x15]w[0xbb]W[0x96]l[0xd4][0xeb]>[0xf9][0xff][0x81][0x1c][0xca]lM[0xad][0xd2]][0xd1][0xe8][0x9c][0x3]-l>[0xcd][0x81][0xfd][0xfe](C[0x93][0x8a][0x1c][0xfb]f;[0xe1][0xe2][0xf8][0xdb][0xe5]'[0xed]^[0xfd][0xf8][0xf]J[0x98][0xa9]R[0x9a][0xb][0x89]>[0xc9]]"[0xc]s[0xeb]|\[0xa2][0xb6][0xa0][0x9f][0x96][0xaf][0xf1]i][0xa1][0x94][0xc0]_[0xc8]M^[0x1a]5[0xfc][0xb]K[0x84][0xb6][0xc7]wA[0xe1]p[0x14][0xba][0xff][0xad]1[0xf3]X]~[0xfd]$[0xb9]K[0xc8][0xf9][0x17]>[0xe7]G41[0x19][0x93]k[0x4][0x0][0x0]"
+106925 DEBUG [2019-11-09 10:49:46]  Released connection is reusable.
+106925 DEBUG [2019-11-09 10:49:46]  Releasing connection [{}->http://localhost:8080][null]
+106925 DEBUG [2019-11-09 10:49:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+106925 DEBUG [2019-11-09 10:49:46]  Notifying no-one, there are no waiting threads
+106927 DEBUG [2019-11-09 10:49:46]   << "HTTP/1.1 200 OK[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Pragma: no-cache[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Expires: 0[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Content-Type: application/xml[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Content-Length: 0[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "Date: Sat, 09 Nov 2019 02:49:46 GMT[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]   << "[\r][\n]"
+106928 DEBUG [2019-11-09 10:49:46]  Receiving response: HTTP/1.1 200 OK
+106928 DEBUG [2019-11-09 10:49:46]  << HTTP/1.1 200 OK
+106928 DEBUG [2019-11-09 10:49:46]  << Server: Apache-Coyote/1.1
+106928 DEBUG [2019-11-09 10:49:46]  << X-Content-Type-Options: nosniff
+106928 DEBUG [2019-11-09 10:49:46]  << X-XSS-Protection: 1; mode=block
+106928 DEBUG [2019-11-09 10:49:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+106928 DEBUG [2019-11-09 10:49:46]  << Pragma: no-cache
+106928 DEBUG [2019-11-09 10:49:46]  << Expires: 0
+106928 DEBUG [2019-11-09 10:49:46]  << X-Frame-Options: SAMEORIGIN
+106928 DEBUG [2019-11-09 10:49:46]  << Content-Type: application/xml
+106928 DEBUG [2019-11-09 10:49:46]  << Content-Length: 0
+106928 DEBUG [2019-11-09 10:49:46]  << Date: Sat, 09 Nov 2019 02:49:46 GMT
+106928 DEBUG [2019-11-09 10:49:46]  Connection can be kept alive indefinitely
+106929 DEBUG [2019-11-09 10:49:46]  Released connection is reusable.
+106929 DEBUG [2019-11-09 10:49:46]  Releasing connection [{}->http://localhost:8080][null]
+106929 DEBUG [2019-11-09 10:49:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+106929 DEBUG [2019-11-09 10:49:46]  Notifying no-one, there are no waiting threads
+120425 DEBUG [2019-11-09 10:50:00]  Returning cached instance of singleton bean 'sessionRepository'
+120425 DEBUG [2019-11-09 10:50:00]  Cleaning up sessions expiring at Sat Nov 09 10:50:00 CST 2019
+120425 DEBUG [2019-11-09 10:50:00]  Opening RedisConnection
+120425 DEBUG [2019-11-09 10:50:00]  Closing Redis Connection
+120426 DEBUG [2019-11-09 10:50:00]  Opening RedisConnection
+120426 DEBUG [2019-11-09 10:50:00]  Closing Redis Connection
+135503 DEBUG [2019-11-09 10:50:15]  Closing connections idle longer than 30000 SECONDS
+135503 DEBUG [2019-11-09 10:50:15]  Closing connections idle longer than 30000 SECONDS
+136926 DEBUG [2019-11-09 10:50:16]  Get connection: {}->http://localhost:8080, timeout = 5000
+136926 DEBUG [2019-11-09 10:50:16]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+136926 DEBUG [2019-11-09 10:50:16]  Getting free connection [{}->http://localhost:8080][null]
+136926 DEBUG [2019-11-09 10:50:16]  Stale connection check
+136928 DEBUG [2019-11-09 10:50:16]  CookieSpec selected: default
+136928 DEBUG [2019-11-09 10:50:16]  Auth cache not set in the context
+136928 DEBUG [2019-11-09 10:50:16]  Target auth state: UNCHALLENGED
+136928 DEBUG [2019-11-09 10:50:16]  Proxy auth state: UNCHALLENGED
+136928 DEBUG [2019-11-09 10:50:16]  Attempt 1 to execute request
+136928 DEBUG [2019-11-09 10:50:16]  Sending request: GET /eureka/apps/delta HTTP/1.1
+136928 DEBUG [2019-11-09 10:50:16]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "Accept: application/json[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "Accept-Encoding: gzip[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "Host: localhost:8080[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "Connection: Keep-Alive[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]   >> "[\r][\n]"
+136928 DEBUG [2019-11-09 10:50:16]  >> GET /eureka/apps/delta HTTP/1.1
+136928 DEBUG [2019-11-09 10:50:16]  >> Accept: application/json
+136928 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Name: DefaultClient
+136928 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Version: 1.4
+136928 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Id: 192.168.32.1
+136928 DEBUG [2019-11-09 10:50:16]  >> Accept-Encoding: gzip
+136928 DEBUG [2019-11-09 10:50:16]  >> Host: localhost:8080
+136928 DEBUG [2019-11-09 10:50:16]  >> Connection: Keep-Alive
+136928 DEBUG [2019-11-09 10:50:16]  >> User-Agent: Java-EurekaClient/v1.9.3
+136929 DEBUG [2019-11-09 10:50:16]   << "HTTP/1.1 200 OK[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Server: Apache-Coyote/1.1[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "X-Content-Type-Options: nosniff[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Pragma: no-cache[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Expires: 0[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Content-Encoding: gzip[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Content-Type: application/json[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Content-Length: 561[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "Date: Sat, 09 Nov 2019 02:50:16 GMT[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]   << "[\r][\n]"
+136929 DEBUG [2019-11-09 10:50:16]  Receiving response: HTTP/1.1 200 OK
+136929 DEBUG [2019-11-09 10:50:16]  << HTTP/1.1 200 OK
+136929 DEBUG [2019-11-09 10:50:16]  << Server: Apache-Coyote/1.1
+136929 DEBUG [2019-11-09 10:50:16]  << X-Content-Type-Options: nosniff
+136930 DEBUG [2019-11-09 10:50:16]  << X-XSS-Protection: 1; mode=block
+136930 DEBUG [2019-11-09 10:50:16]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+136930 DEBUG [2019-11-09 10:50:16]  << Pragma: no-cache
+136930 DEBUG [2019-11-09 10:50:16]  << Expires: 0
+136930 DEBUG [2019-11-09 10:50:16]  << X-Frame-Options: SAMEORIGIN
+136930 DEBUG [2019-11-09 10:50:16]  << Content-Encoding: gzip
+136930 DEBUG [2019-11-09 10:50:16]  << Content-Type: application/json
+136930 DEBUG [2019-11-09 10:50:16]  << Content-Length: 561
+136930 DEBUG [2019-11-09 10:50:16]  << Date: Sat, 09 Nov 2019 02:50:16 GMT
+136930 DEBUG [2019-11-09 10:50:16]  Connection can be kept alive indefinitely
+136930 DEBUG [2019-11-09 10:50:16]  Get connection: {}->http://localhost:8080, timeout = 5000
+136930 DEBUG [2019-11-09 10:50:16]  [{}->http://localhost:8080] total kept alive: 1, total issued: 1, total allocated: 2 out of 200
+136930 DEBUG [2019-11-09 10:50:16]  Getting free connection [{}->http://localhost:8080][null]
+136930 DEBUG [2019-11-09 10:50:16]  Stale connection check
+136930 DEBUG [2019-11-09 10:50:16]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]I @[0x13][0xc8][0xd3]R[0xb2][0xaa]P[6[0xe2]R[0x1e][0xaa]*[0xf2][0xda][0x3][0xb1][0x9a][0xd8][0x91][0xed]@[0x11][0xe2][0xdf]wL[0x9a][0xbd]uQ[0xb5][0xca]C[0xe2][0xf1][0x99]33[0xe7]LN[0x84]VU![0x18][0xb5]BIC[0xe2][0x13][0xd9][0x83]6[0xee];[0xcb]8[0x14][0x96][0x92][0x98][0xf4][0xc7][0xa4][0xe3]`[0x18][0xca][0xa9][0xc9][0x99][0xe2][0x80][0xd1][0xe5]j[0xb2]X[0xcd][0xe6]_[0xb2] [[0xa7]Y[0x94]5[0x98][0x96][0x8a][0xc4]?OD[0xd2][0xd2]!'i[0xea]m[0xbc][0xf4]~[0xb1][0x9a]|[0xf3]6w[0x9f][0x11])[0xa4][0xb1]T2[0xb8][0xc0][0xda][0xc3][0x8c]#[0xf8] $W[0x7][0x13][0xf4][0xfc]R0[0xad][0xb8][0x92][0xe0]3[0x19]#[0xb5]w[0xf0]*[0xa5]--[0xbc][0x3]<[0xc4][0xa3][0x1e][0xd2][0xe4][0xca][0xd8]yS[0xe4][0xfd][0xbc][0xa6][0xa9]+=T[0x13][0xce]5[0xde][0x5][0xe3][0xbe][0x1f][0x84]#[0x80]/[0x8c]c3[0xb6]F)[0xc8]:[0xc5][0x93]B=[0xb4][0xe0][0x1c][0xe4]s|[0xfe]u~[0xbf][0x99][0xe3][0xa5][0xeb][0xc7]ivC[0xb0][0x9f][0xe][0xb9][0x5]I[0x1f][\n]"
+136930 DEBUG [2019-11-09 10:50:16]   << "pcX][0x3]9#[0x19][0xb0]ZC[0xfa][0x8c][0x1b][0xe][0x7][0xaf][0x80][Z[0x98][0xb][0x92][0xa9]ZZ}t"[0x4][0x1d][0xc2][0xa9][0xa5]S[0x90][0x16][0xf4]Ln[0x95][0xcb][0xbd]e[0x5]5[0xae]<S[0xa5]/[0xc1]n[0xb][0xf1][0xc7][0xc7][0xe1][0x4][0xde][0xfb][0xb3]VB<[0xdc]$[0xb0][0xa5]ua[0x93][0xd7][0x14][0x9d][0xd6][0x8e][0xef][0xc7][0xfb][0x83]t[0x15][0xb][0xa0][0x6]Zz[\r][0x12][0xe][0xb4][0x98]9[0xfc][0xde][0xbd][0x97][0xc0][0xb0][0xda][0x0][0xc7][0xe2][0xb5][0xbe]x[0xda][0xc6][0xc6][0x18][0xd3][0xb0][0x13][0xc6]6[0xf1][0x95]([0x1][0xcb][0x97][0xa8]s[0xf0])[0x1a][0xf4][0xc3]([0x1c]G[0xbd][0x10][0xe7][0xc4][0x8e][0xed][0xa2]![0xbe][0xe][0x82][0xbd]`ohzN8[0x8d]qXW[0xff]$[0x86]Q[0x14][\r][0x7][0x11][0xe]P[0x82][0xa5]N([0xd7]I%[0xdd]A[0x89][0xf3][0xfa][0x8d]+[0x4]7[0xe4][0xec]V[0xa4][0x84][0x14]o[0xd6][0xba][0xc0]Xnm[0x15]w[0xbb]W[0x96]l[0xd4][0xeb]>[0xf9][0xff][0x81][0x1c][0xca]lM[0xad][0xd2]][0xd1][0xe8][0x9c][0x3]-l>[0xcd][0x81][0xfd][0xfe](C[0x93][0x8a][0x1c][0xfb]f;[0xe1][0xe2][0xf8][0xdb][0xe5]'[0xed]^[0xfd][0xf8][0xf]J[0x98][0xa9]R[0x9a][0xb][0x89]>[0xc9]]"[0xc]s[0xeb]|\[0xa2][0xb6][0xa0][0x9f][0x96][0xaf][0xf1]i][0xa1][0x94][0xc0]_[0xc8]M^[0x1a]5[0xfc][0xb]K[0x84][0xb6][0xc7]wA[0xe1]p[0x14][0xba][0xff][0xad]1[0xf3]X]~[0xfd]$[0xb9]K[0xc8][0xf9][0x17]>[0xe7]G41[0x19][0x93]k[0x4][0x0][0x0]"
+136931 DEBUG [2019-11-09 10:50:16]  CookieSpec selected: default
+136931 DEBUG [2019-11-09 10:50:16]  Auth cache not set in the context
+136931 DEBUG [2019-11-09 10:50:16]  Released connection is reusable.
+136931 DEBUG [2019-11-09 10:50:16]  Target auth state: UNCHALLENGED
+136932 DEBUG [2019-11-09 10:50:16]  Proxy auth state: UNCHALLENGED
+136932 DEBUG [2019-11-09 10:50:16]  Attempt 1 to execute request
+136932 DEBUG [2019-11-09 10:50:16]  Releasing connection [{}->http://localhost:8080][null]
+136932 DEBUG [2019-11-09 10:50:16]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+136932 DEBUG [2019-11-09 10:50:16]  Notifying no-one, there are no waiting threads
+136932 DEBUG [2019-11-09 10:50:16]  Sending request: PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+136932 DEBUG [2019-11-09 10:50:16]   >> "PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "Accept-Encoding: gzip[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "Content-Length: 0[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "Host: localhost:8080[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "Connection: Keep-Alive[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]   >> "[\r][\n]"
+136932 DEBUG [2019-11-09 10:50:16]  >> PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+136932 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Name: DefaultClient
+136932 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Version: 1.4
+136932 DEBUG [2019-11-09 10:50:16]  >> DiscoveryIdentity-Id: 192.168.32.1
+136932 DEBUG [2019-11-09 10:50:16]  >> Accept-Encoding: gzip
+136932 DEBUG [2019-11-09 10:50:16]  >> Content-Length: 0
+136932 DEBUG [2019-11-09 10:50:16]  >> Host: localhost:8080
+136932 DEBUG [2019-11-09 10:50:16]  >> Connection: Keep-Alive
+136932 DEBUG [2019-11-09 10:50:16]  >> User-Agent: Java-EurekaClient/v1.9.3
+136938 DEBUG [2019-11-09 10:50:16]   << "HTTP/1.1 200 OK[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Server: Apache-Coyote/1.1[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "X-Content-Type-Options: nosniff[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Pragma: no-cache[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Expires: 0[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Content-Type: application/xml[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Content-Length: 0[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "Date: Sat, 09 Nov 2019 02:50:16 GMT[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]   << "[\r][\n]"
+136938 DEBUG [2019-11-09 10:50:16]  Receiving response: HTTP/1.1 200 OK
+136938 DEBUG [2019-11-09 10:50:16]  << HTTP/1.1 200 OK
+136938 DEBUG [2019-11-09 10:50:16]  << Server: Apache-Coyote/1.1
+136938 DEBUG [2019-11-09 10:50:16]  << X-Content-Type-Options: nosniff
+136938 DEBUG [2019-11-09 10:50:16]  << X-XSS-Protection: 1; mode=block
+136938 DEBUG [2019-11-09 10:50:16]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+136938 DEBUG [2019-11-09 10:50:16]  << Pragma: no-cache
+136938 DEBUG [2019-11-09 10:50:16]  << Expires: 0
+136938 DEBUG [2019-11-09 10:50:16]  << X-Frame-Options: SAMEORIGIN
+136938 DEBUG [2019-11-09 10:50:16]  << Content-Type: application/xml
+136938 DEBUG [2019-11-09 10:50:16]  << Content-Length: 0
+136938 DEBUG [2019-11-09 10:50:16]  << Date: Sat, 09 Nov 2019 02:50:16 GMT
+136938 DEBUG [2019-11-09 10:50:16]  Connection can be kept alive indefinitely
+136938 DEBUG [2019-11-09 10:50:16]  Released connection is reusable.
+136938 DEBUG [2019-11-09 10:50:16]  Releasing connection [{}->http://localhost:8080][null]
+136938 DEBUG [2019-11-09 10:50:16]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+136939 DEBUG [2019-11-09 10:50:16]  Notifying no-one, there are no waiting threads
+165503 DEBUG [2019-11-09 10:50:45]  Closing connections idle longer than 30000 SECONDS
+165503 DEBUG [2019-11-09 10:50:45]  Closing connections idle longer than 30000 SECONDS
+166933 DEBUG [2019-11-09 10:50:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+166933 DEBUG [2019-11-09 10:50:46]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+166933 DEBUG [2019-11-09 10:50:46]  Getting free connection [{}->http://localhost:8080][null]
+166933 DEBUG [2019-11-09 10:50:46]  Stale connection check
+166935 DEBUG [2019-11-09 10:50:46]  CookieSpec selected: default
+166935 DEBUG [2019-11-09 10:50:46]  Auth cache not set in the context
+166935 DEBUG [2019-11-09 10:50:46]  Target auth state: UNCHALLENGED
+166935 DEBUG [2019-11-09 10:50:46]  Proxy auth state: UNCHALLENGED
+166935 DEBUG [2019-11-09 10:50:46]  Attempt 1 to execute request
+166935 DEBUG [2019-11-09 10:50:46]  Sending request: GET /eureka/apps/delta HTTP/1.1
+166935 DEBUG [2019-11-09 10:50:46]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "Accept: application/json[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "Accept-Encoding: gzip[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "Host: localhost:8080[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "Connection: Keep-Alive[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]   >> "[\r][\n]"
+166935 DEBUG [2019-11-09 10:50:46]  >> GET /eureka/apps/delta HTTP/1.1
+166935 DEBUG [2019-11-09 10:50:46]  >> Accept: application/json
+166935 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Name: DefaultClient
+166935 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Version: 1.4
+166935 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+166935 DEBUG [2019-11-09 10:50:46]  >> Accept-Encoding: gzip
+166935 DEBUG [2019-11-09 10:50:46]  >> Host: localhost:8080
+166935 DEBUG [2019-11-09 10:50:46]  >> Connection: Keep-Alive
+166935 DEBUG [2019-11-09 10:50:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+166936 DEBUG [2019-11-09 10:50:46]   << "HTTP/1.1 200 OK[\r][\n]"
+166936 DEBUG [2019-11-09 10:50:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+166936 DEBUG [2019-11-09 10:50:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+166936 DEBUG [2019-11-09 10:50:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+166936 DEBUG [2019-11-09 10:50:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Pragma: no-cache[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Expires: 0[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Content-Encoding: gzip[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Content-Type: application/json[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Content-Length: 561[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "Date: Sat, 09 Nov 2019 02:50:46 GMT[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "[\r][\n]"
+166937 DEBUG [2019-11-09 10:50:46]  Receiving response: HTTP/1.1 200 OK
+166937 DEBUG [2019-11-09 10:50:46]  << HTTP/1.1 200 OK
+166937 DEBUG [2019-11-09 10:50:46]  << Server: Apache-Coyote/1.1
+166937 DEBUG [2019-11-09 10:50:46]  << X-Content-Type-Options: nosniff
+166937 DEBUG [2019-11-09 10:50:46]  << X-XSS-Protection: 1; mode=block
+166937 DEBUG [2019-11-09 10:50:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+166937 DEBUG [2019-11-09 10:50:46]  << Pragma: no-cache
+166937 DEBUG [2019-11-09 10:50:46]  << Expires: 0
+166937 DEBUG [2019-11-09 10:50:46]  << X-Frame-Options: SAMEORIGIN
+166937 DEBUG [2019-11-09 10:50:46]  << Content-Encoding: gzip
+166937 DEBUG [2019-11-09 10:50:46]  << Content-Type: application/json
+166937 DEBUG [2019-11-09 10:50:46]  << Content-Length: 561
+166937 DEBUG [2019-11-09 10:50:46]  << Date: Sat, 09 Nov 2019 02:50:46 GMT
+166937 DEBUG [2019-11-09 10:50:46]  Connection can be kept alive indefinitely
+166937 DEBUG [2019-11-09 10:50:46]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]I @[0x13][0xc8][0xd3]R[0xb2][0xaa]P[6[0xe2]R[0x1e][0xaa]*[0xf2][0xda][0x3][0xb1][0x9a][0xd8][0x91][0xed]@[0x11][0xe2][0xdf]wL[0x9a][0xbd]uQ[0xb5][0xca]C[0xe2][0xf1][0x99]33[0xe7]LN[0x84]VU![0x18][0xb5]BIC[0xe2][0x13][0xd9][0x83]6[0xee];[0xcb]8[0x14][0x96][0x92][0x98][0xf4][0xc7][0xa4][0xe3]`[0x18][0xca][0xa9][0xc9][0x99][0xe2][0x80][0xd1][0xe5]j[0xb2]X[0xcd][0xe6]_[0xb2] [[0xa7]Y[0x94]5[0x98][0x96][0x8a][0xc4]?OD[0xd2][0xd2]!'i[0xea]m[0xbc][0xf4]~[0xb1][0x9a]|[0xf3]6w[0x9f][0x11])[0xa4][0xb1]T2[0xb8][0xc0][0xda][0xc3][0x8c]#[0xf8] $W[0x7][0x13][0xf4][0xfc]R0[0xad][0xb8][0x92][0xe0]3[0x19]#[0xb5]w[0xf0]*[0xa5]--[0xbc][0x3]<[0xc4][0xa3][0x1e][0xd2][0xe4][0xca][0xd8]yS[0xe4][0xfd][0xbc][0xa6][0xa9]+=T[0x13][0xce]5[0xde][0x5][0xe3][0xbe][0x1f][0x84]#[0x80]/[0x8c]c3[0xb6]F)[0xc8]:[0xc5][0x93]B=[0xb4][0xe0][0x1c][0xe4]s|[0xfe]u~[0xbf][0x99][0xe3][0xa5][0xeb][0xc7]ivC[0xb0][0x9f][0xe][0xb9][0x5]I[0x1f][\n]"
+166937 DEBUG [2019-11-09 10:50:46]   << "pcX][0x3]9#[0x19][0xb0]ZC[0xfa][0x8c][0x1b][0xe][0x7][0xaf][0x80][Z[0x98][0xb][0x92][0xa9]ZZ}t"[0x4][0x1d][0xc2][0xa9][0xa5]S[0x90][0x16][0xf4]Ln[0x95][0xcb][0xbd]e[0x5]5[0xae]<S[0xa5]/[0xc1]n[0xb][0xf1][0xc7][0xc7][0xe1][0x4][0xde][0xfb][0xb3]VB<[0xdc]$[0xb0][0xa5]ua[0x93][0xd7][0x14][0x9d][0xd6][0x8e][0xef][0xc7][0xfb][0x83]t[0x15][0xb][0xa0][0x6]Zz[\r][0x12][0xe][0xb4][0x98]9[0xfc][0xde][0xbd][0x97][0xc0][0xb0][0xda][0x0][0xc7][0xe2][0xb5][0xbe]x[0xda][0xc6][0xc6][0x18][0xd3][0xb0][0x13][0xc6]6[0xf1][0x95]([0x1][0xcb][0x97][0xa8]s[0xf0])[0x1a][0xf4][0xc3]([0x1c]G[0xbd][0x10][0xe7][0xc4][0x8e][0xed][0xa2]![0xbe][0xe][0x82][0xbd]`ohzN8[0x8d]qXW[0xff]$[0x86]Q[0x14][\r][0x7][0x11][0xe]P[0x82][0xa5]N([0xd7]I%[0xdd]A[0x89][0xf3][0xfa][0x8d]+[0x4]7[0xe4][0xec]V[0xa4][0x84][0x14]o[0xd6][0xba][0xc0]Xnm[0x15]w[0xbb]W[0x96]l[0xd4][0xeb]>[0xf9][0xff][0x81][0x1c][0xca]lM[0xad][0xd2]][0xd1][0xe8][0x9c][0x3]-l>[0xcd][0x81][0xfd][0xfe](C[0x93][0x8a][0x1c][0xfb]f;[0xe1][0xe2][0xf8][0xdb][0xe5]'[0xed]^[0xfd][0xf8][0xf]J[0x98][0xa9]R[0x9a][0xb][0x89]>[0xc9]]"[0xc]s[0xeb]|\[0xa2][0xb6][0xa0][0x9f][0x96][0xaf][0xf1]i][0xa1][0x94][0xc0]_[0xc8]M^[0x1a]5[0xfc][0xb]K[0x84][0xb6][0xc7]wA[0xe1]p[0x14][0xba][0xff][0xad]1[0xf3]X]~[0xfd]$[0xb9]K[0xc8][0xf9][0x17]>[0xe7]G41[0x19][0x93]k[0x4][0x0][0x0]"
+166938 DEBUG [2019-11-09 10:50:46]  Released connection is reusable.
+166938 DEBUG [2019-11-09 10:50:46]  Releasing connection [{}->http://localhost:8080][null]
+166938 DEBUG [2019-11-09 10:50:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+166938 DEBUG [2019-11-09 10:50:46]  Notifying no-one, there are no waiting threads
+166939 DEBUG [2019-11-09 10:50:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+166939 DEBUG [2019-11-09 10:50:46]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+166939 DEBUG [2019-11-09 10:50:46]  Getting free connection [{}->http://localhost:8080][null]
+166939 DEBUG [2019-11-09 10:50:46]  Stale connection check
+166941 DEBUG [2019-11-09 10:50:46]  CookieSpec selected: default
+166941 DEBUG [2019-11-09 10:50:46]  Auth cache not set in the context
+166941 DEBUG [2019-11-09 10:50:46]  Target auth state: UNCHALLENGED
+166941 DEBUG [2019-11-09 10:50:46]  Proxy auth state: UNCHALLENGED
+166941 DEBUG [2019-11-09 10:50:46]  Attempt 1 to execute request
+166941 DEBUG [2019-11-09 10:50:46]  Sending request: PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+166941 DEBUG [2019-11-09 10:50:46]   >> "PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "Accept-Encoding: gzip[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "Content-Length: 0[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "Host: localhost:8080[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "Connection: Keep-Alive[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]   >> "[\r][\n]"
+166941 DEBUG [2019-11-09 10:50:46]  >> PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+166941 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Name: DefaultClient
+166941 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Version: 1.4
+166941 DEBUG [2019-11-09 10:50:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+166941 DEBUG [2019-11-09 10:50:46]  >> Accept-Encoding: gzip
+166941 DEBUG [2019-11-09 10:50:46]  >> Content-Length: 0
+166941 DEBUG [2019-11-09 10:50:46]  >> Host: localhost:8080
+166942 DEBUG [2019-11-09 10:50:46]  >> Connection: Keep-Alive
+166942 DEBUG [2019-11-09 10:50:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+166944 DEBUG [2019-11-09 10:50:46]   << "HTTP/1.1 200 OK[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Pragma: no-cache[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Expires: 0[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Content-Type: application/xml[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Content-Length: 0[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "Date: Sat, 09 Nov 2019 02:50:46 GMT[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]   << "[\r][\n]"
+166944 DEBUG [2019-11-09 10:50:46]  Receiving response: HTTP/1.1 200 OK
+166944 DEBUG [2019-11-09 10:50:46]  << HTTP/1.1 200 OK
+166944 DEBUG [2019-11-09 10:50:46]  << Server: Apache-Coyote/1.1
+166944 DEBUG [2019-11-09 10:50:46]  << X-Content-Type-Options: nosniff
+166944 DEBUG [2019-11-09 10:50:46]  << X-XSS-Protection: 1; mode=block
+166944 DEBUG [2019-11-09 10:50:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+166944 DEBUG [2019-11-09 10:50:46]  << Pragma: no-cache
+166944 DEBUG [2019-11-09 10:50:46]  << Expires: 0
+166944 DEBUG [2019-11-09 10:50:46]  << X-Frame-Options: SAMEORIGIN
+166944 DEBUG [2019-11-09 10:50:46]  << Content-Type: application/xml
+166944 DEBUG [2019-11-09 10:50:46]  << Content-Length: 0
+166944 DEBUG [2019-11-09 10:50:46]  << Date: Sat, 09 Nov 2019 02:50:46 GMT
+166944 DEBUG [2019-11-09 10:50:46]  Connection can be kept alive indefinitely
+166944 DEBUG [2019-11-09 10:50:46]  Released connection is reusable.
+166944 DEBUG [2019-11-09 10:50:46]  Releasing connection [{}->http://localhost:8080][null]
+166944 DEBUG [2019-11-09 10:50:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+166945 DEBUG [2019-11-09 10:50:46]  Notifying no-one, there are no waiting threads
+169214 INFO  [2019-11-09 10:50:48]  Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea: startup date [Sat Nov 09 10:48:04 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@388526fb
+169215 DEBUG [2019-11-09 10:50:48]  Returning cached instance of singleton bean 'eurekaAutoServiceRegistration'
+169215 INFO  [2019-11-09 10:50:48]  Unregistering application APP-W-PORTAL-WEB with eureka with status DOWN
+169216 DEBUG [2019-11-09 10:50:48]  Get connection: {}->http://localhost:8080, timeout = 5000
+169216 DEBUG [2019-11-09 10:50:48]  [{}->http://localhost:8080] total kept alive: 2, total issued: 0, total allocated: 2 out of 200
+169216 DEBUG [2019-11-09 10:50:48]  Getting free connection [{}->http://localhost:8080][null]
+169216 DEBUG [2019-11-09 10:50:48]  Stale connection check
+169217 DEBUG [2019-11-09 10:50:48]  Returning cached instance of singleton bean 'redisMessageListenerContainer'
+169217 DEBUG [2019-11-09 10:50:48]  Returning cached instance of singleton bean 'eurekaAutoServiceRegistration'
+169217 DEBUG [2019-11-09 10:50:48]  Returning cached instance of singleton bean 'lifecycleProcessor'
+169217 INFO  [2019-11-09 10:50:48]  Stopping beans in phase 2147483647
+169217 DEBUG [2019-11-09 10:50:48]  Asking bean 'redisMessageListenerContainer' of type [class org.springframework.data.redis.listener.RedisMessageListenerContainer] to stop
+169218 DEBUG [2019-11-09 10:50:48]  CookieSpec selected: default
+169218 DEBUG [2019-11-09 10:50:48]  Auth cache not set in the context
+169218 DEBUG [2019-11-09 10:50:48]  Target auth state: UNCHALLENGED
+169218 DEBUG [2019-11-09 10:50:48]  Proxy auth state: UNCHALLENGED
+169218 DEBUG [2019-11-09 10:50:48]  Attempt 1 to execute request
+169218 DEBUG [2019-11-09 10:50:48]  Stopped RedisMessageListenerContainer
+169218 DEBUG [2019-11-09 10:50:48]  Sending request: POST /eureka/apps/APP-W-PORTAL-WEB HTTP/1.1
+169219 DEBUG [2019-11-09 10:50:48]  Bean 'redisMessageListenerContainer' completed its stop procedure
+169219 DEBUG [2019-11-09 10:50:48]   >> "POST /eureka/apps/APP-W-PORTAL-WEB HTTP/1.1[\r][\n]"
+169219 INFO  [2019-11-09 10:50:48]  Stopping beans in phase 0
+169219 DEBUG [2019-11-09 10:50:48]   >> "Accept-Encoding: gzip[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "Content-Type: application/json[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "Accept: application/json[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "Transfer-Encoding: chunked[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "Host: localhost:8080[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "Connection: Keep-Alive[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169219 DEBUG [2019-11-09 10:50:48]  >> POST /eureka/apps/APP-W-PORTAL-WEB HTTP/1.1
+169219 DEBUG [2019-11-09 10:50:48]  >> Accept-Encoding: gzip
+169219 DEBUG [2019-11-09 10:50:48]  >> Content-Type: application/json
+169219 DEBUG [2019-11-09 10:50:48]  >> Accept: application/json
+169219 DEBUG [2019-11-09 10:50:48]  >> DiscoveryIdentity-Name: DefaultClient
+169219 DEBUG [2019-11-09 10:50:48]  >> DiscoveryIdentity-Version: 1.4
+169219 DEBUG [2019-11-09 10:50:48]  >> DiscoveryIdentity-Id: 192.168.32.1
+169219 DEBUG [2019-11-09 10:50:48]  >> Transfer-Encoding: chunked
+169219 DEBUG [2019-11-09 10:50:48]  >> Host: localhost:8080
+169219 DEBUG [2019-11-09 10:50:48]  >> Connection: Keep-Alive
+169219 DEBUG [2019-11-09 10:50:48]  >> User-Agent: Java-EurekaClient/v1.9.3
+169220 DEBUG [2019-11-09 10:50:48]   >> "186[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]   >> "{"instance":{"instanceId":"windows10.microdone.cn:app-w-portal-web:80","hostName":"windows10.microdone.cn","app":"APP-W-PORTAL-WEB","ipAddr":"192.168.32.1","status":"DOWN","overriddenStatus":"UNKNOWN","port":{"$":80,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"}"
+169220 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]   >> "9d[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]   >> ","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0}"
+169220 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]   >> "24[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]   >> ","metadata":{"management.port":"80"}"
+169220 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169220 DEBUG [2019-11-09 10:50:48]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1f9d6c7b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appPortalWeb,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory,verifyController,xxlSsoConfig,loginController,QQAuthoriController,registerController,indexController,sessionConfig,baseApiService,generateToken,redisDataSoureceTransaction,redisUtil,springContextUtil,xxlSsoFilterRegistration,org.springframework.scheduling.annotation.SchedulingConfiguration,org.springframework.context.annotation.internalScheduledAnnotationProcessor,org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration,sessionRepository,redisMessageListenerContainer,enableRedisKeyspaceNotificationsInitializer,sessionEventHttpSessionListenerAdapter,springSessionRepositoryFilter,connectionFactory,default.com.w.AppPortalWeb.FeignClientSpecification,app-w-member.FeignClientSpecification,com.w.member.feign.MemberLoginServiceFeign,com.w.member.feign.MemberRegisterServiceFeign,com.w.member.feign.MemberServiceFeign,com.w.member.feign.QQAuthoriFeign,org.springframework.boot.autoconfigure.AutoConfigurationPackages,org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration,websocketContainerCustomizer,org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration,org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat,tomcatServletWebServerFactory,org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration,servletWebServerFactoryCustomizer,tomcatServletWebServerFactoryCustomizer,server-org.springframework.boot.autoconfigure.web.ServerProperties,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata,webServerFactoryCustomizerBeanPostProcessor,errorPageRegistrarBeanPostProcessor,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration,dispatcherServlet,spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration,dispatcherServletRegistration,org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration,org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration$PropagateEventsConfiguration,org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration,configurableEnvironmentConfiguration,org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration,defaultValidator,methodValidationPostProcessor,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration,error,beanNameViewResolver,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration,conventionErrorViewResolver,org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration,errorAttributes,basicErrorController,errorPageCustomizer,preserveErrorControllerTargetClassPostProcessor,spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration,faviconHandlerMapping,faviconRequestHandler,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration,requestMappingHandlerAdapter,requestMappingHandlerMapping,mvcConversionService,mvcValidator,mvcContentNegotiationManager,mvcPathMatcher,mvcUrlPathHelper,viewControllerHandlerMapping,beanNameHandlerMapping,resourceHandlerMapping,mvcResourceUrlProvider,defaultServletHandlerMapping,mvcUriComponentsContributor,httpRequestHandlerAdapter,simpleControllerHandlerAdapter,handlerExceptionResolver,mvcViewResolver,mvcHandlerMappingIntrospector,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter,defaultViewResolver,viewResolver,welcomePageHandlerMapping,requestContextFilter,org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration,hiddenHttpMethodFilter,httpPutFormContentFilter,org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration,mbeanExporter,objectNamingStrategy,mbeanServer,org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration,springApplicationAdminRegistrar,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration$CglibAutoProxyConfiguration,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.boot.autoconfigure.aop.AopAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration,lettuceClientResources,org.springframework.boot.autoconfigure.data.redis.JedisConnectionConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration,redisTemplate,stringRedisTemplate,spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties,org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration,org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration,persistenceExceptionTranslationPostProcessor,org.springframework.boot.autoconfigure.data.redis.RedisReactiveAutoConfiguration,org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration,keyValueMappingContext,redisCustomConversions,redisReferenceResolver,redisConverter,redisKeyValueAdapter,redisKeyValueTemplate,org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration,gsonBuilder,gson,standardGsonBuilderCustomizer,spring.gson-org.springframework.boot.autoconfigure.gson.GsonProperties,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration,standardJacksonObjectMapperBuilderCustomizer,spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration,jacksonObjectMapperBuilder,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration,parameterNamesModule,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration,jacksonObjectMapper,org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration,jsonComponentModule,org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration,stringHttpMessageConverter,spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties,org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration,mappingJackson2HttpMessageConverter,org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration,org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration,messageConverters,org.springframework.data.web.config.ProjectingArgumentResolverRegistrar,projectingArgumentResolverBeanPostProcessor,org.springframework.data.web.config.SpringDataWebConfiguration,pageableResolver,sortResolver,org.springframework.data.web.config.SpringDataJacksonConfiguration,jacksonGeoModule,org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration,pageableCustomizer,sortCustomizer,spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties,org.springframework.boot.autoconfigure.freemarker.FreeMarkerServletWebConfiguration,freeMarkerConfigurer,freeMarkerConfiguration,freeMarkerViewResolver,org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration,spring.freemarker-org.springframework.boot.autoconfigure.freemarker.FreeMarkerProperties,org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration,jacksonCodecCustomizer,org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration,org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration,spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties,org.springframework.boot.autoconfigure.reactor.core.ReactorCoreAutoConfiguration,spring.reactor-org.springframework.boot.autoconfigure.reactor.core.ReactorCoreProperties,org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration,spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionRepositoryValidator,org.springframework.boot.autoconfigure.session.SessionRepositoryFilterConfiguration,sessionRepositoryFilterRegistration,spring.session-org.springframework.boot.autoconfigure.session.SessionProperties,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration$ServletSessionConfiguration,org.springframework.boot.autoconfigure.session.SessionAutoConfiguration,org.springframework.cloud.autoconfigure.RefreshAutoConfiguration$RefreshScopeBeanDefinitionEnhancer,org.springframework.cloud.autoconfigure.RefreshAutoConfiguration,refreshScope,loggingRebinder,contextRefresher,refreshEventListener,org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration,platformTransactionManagerCustomizers,spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties,org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration,restTemplateBuilder,org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration,tomcatWebServerFactoryCustomizer,org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration,org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration,characterEncodingFilter,localeCharsetMappingsCustomizer,org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration,multipartConfigElement,multipartResolver,spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties,org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,configurationPropertiesBeans,configurationPropertiesRebinder,org.springframework.cloud.autoconfigure.LifecycleMvcEndpointAutoConfiguration,environmentManager,org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher,org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration,eurekaDiscoverClientMarker,org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationConfiguration,spring.cloud.service-registry.auto-registration-org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationProperties,org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration,org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration,scopedTarget.eurekaClient,eurekaClient,scopedTarget.eurekaApplicationInfoManager,eurekaApplicationInfoManager,scopedTarget.eurekaRegistration,eurekaRegistration,org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration,discoveryClientOptionalArgs,org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration,eurekaFeature,eurekaClientConfigBean,serviceManagementMetadataProvider,eurekaInstanceConfigBean,discoveryClient,eurekaServiceRegistry,eurekaAutoServiceRegistration,org.springframework.cloud.client.CommonsClientAutoConfiguration,org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration,compositeDiscoveryClient,org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration,simpleDiscoveryProperties,simpleDiscoveryClient,org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration,ribbonFeature,springClientFactory,loadBalancerClient,propertiesFactory,default.org.springframework.cloud.netflix.ribbon.RibbonAutoConfiguration.RibbonClientSpecification,ribbon.eager-load-org.springframework.cloud.netflix.ribbon.RibbonEagerLoadProperties,ribbon-org.springframework.cloud.netflix.ribbon.ServerIntrospectorProperties,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig,asyncLoadBalancerInterceptor,asyncRestTemplateCustomizer,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration$AsyncRestTemplateCustomizerConfig,loadBalancedAsyncRestTemplateInitializer,org.springframework.cloud.client.loadbalancer.AsyncLoadBalancerAutoConfiguration,org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$LoadBalancerInterceptorConfig,ribbonInterceptor,restTemplateCustomizer,org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration,loadBalancedRestTemplateInitializerDeprecated,loadBalancerRequestFactory,spring.cloud.loadbalancer.retry-org.springframework.cloud.client.loadbalancer.LoadBalancerRetryProperties,org.springframework.cloud.client.serviceregistry.ServiceRegistryAutoConfiguration,org.springframework.cloud.commons.httpclient.HttpClientConfiguration$ApacheHttpClientConfiguration,connManFactory,apacheHttpClientBuilder,apacheHttpClientFactory,org.springframework.cloud.commons.httpclient.HttpClientConfiguration,org.springframework.cloud.commons.util.UtilAutoConfiguration,inetUtilsProperties,inetUtils,org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration,default.org.springframework.cloud.netflix.ribbon.eureka.RibbonEurekaAutoConfiguration.RibbonClientSpecification,org.springframework.cloud.openfeign.ribbon.DefaultFeignLoadBalancedConfiguration,feignClient,org.springframework.cloud.openfeign.ribbon.FeignRibbonClientAutoConfiguration,cachingLBClientFactory,feignRequestOptions,feign.httpclient-org.springframework.cloud.openfeign.support.FeignHttpClientProperties,org.springframework.cloud.openfeign.FeignAutoConfiguration$HystrixFeignTargeterConfiguration,feignTargeter,org.springframework.cloud.openfeign.FeignAutoConfiguration,feignFeature,feignContext,feign.client-org.springframework.cloud.openfeign.FeignClientProperties]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6b7906b3
+169220 DEBUG [2019-11-09 10:50:48]   >> "173[\r][\n]"
+169222 DEBUG [2019-11-09 10:50:48]  Retrieved dependent beans for bean 'inetUtils': [eurekaInstanceConfigBean, org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration]
+169222 DEBUG [2019-11-09 10:50:48]   >> ","homePageUrl":"http://windows10.microdone.cn:80/","statusPageUrl":"http://windows10.microdone.cn:80/actuator/info","healthCheckUrl":"http://windows10.microdone.cn:80/actuator/health","vipAddress":"app-w-portal-web","secureVipAddress":"app-w-portal-web","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1573267692620","lastDirtyTimestamp":"1573267848791"}}"
+169223 DEBUG [2019-11-09 10:50:48]  Retrieved dependent beans for bean 'eurekaInstanceConfigBean': [discoveryClient, scopedTarget.eurekaRegistration, scopedTarget.eurekaApplicationInfoManager, scopedTarget.eurekaClient]
+169223 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169223 DEBUG [2019-11-09 10:50:48]  Retrieved dependent beans for bean 'discoveryClient': [compositeDiscoveryClient]
+169223 DEBUG [2019-11-09 10:50:48]   >> "0[\r][\n]"
+169223 DEBUG [2019-11-09 10:50:48]   >> "[\r][\n]"
+169224 DEBUG [2019-11-09 10:50:48]  Invoking destroy method 'close' on bean with name 'inetUtils'
+169224 DEBUG [2019-11-09 10:50:48]  Retrieved dependent beans for bean 'eurekaServiceRegistry': [eurekaAutoServiceRegistration]
+169224 DEBUG [2019-11-09 10:50:48]  Retrieved dependent beans for bean 'eurekaAutoServiceRegistration': [org.springframework.cloud.netflix.eureka.EurekaDiscoveryClientConfiguration$EurekaClientConfigurationRefresher, org.springframework.cloud.client.serviceregistry.AutoServiceRegistrationAutoConfiguration]
+169225 DEBUG [2019-11-09 10:50:48]  Invoking destroy method 'close' on bean with name 'eurekaServiceRegistry'
+169225 DEBUG [2019-11-09 10:50:48]  Invoking destroy() on bean with name 'redisKeyValueTemplate'
+169225 DEBUG [2019-11-09 10:50:48]  Invoking destroy() on bean with name 'redisKeyValueAdapter'
+169225 DEBUG [2019-11-09 10:50:48]  Stopped RedisMessageListenerContainer
+169225 DEBUG [2019-11-09 10:50:48]  Invoking destroy method 'shutdown' on bean with name 'lettuceClientResources'
+169226 DEBUG [2019-11-09 10:50:48]   << "HTTP/1.1 204 No Content[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Server: Apache-Coyote/1.1[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "X-Content-Type-Options: nosniff[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Pragma: no-cache[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Expires: 0[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Content-Type: application/json[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "Date: Sat, 09 Nov 2019 02:50:48 GMT[\r][\n]"
+169226 DEBUG [2019-11-09 10:50:48]   << "[\r][\n]"
+169227 DEBUG [2019-11-09 10:50:48]  Receiving response: HTTP/1.1 204 No Content
+169227 DEBUG [2019-11-09 10:50:48]  << HTTP/1.1 204 No Content
+169227 DEBUG [2019-11-09 10:50:48]  << Server: Apache-Coyote/1.1
+169227 DEBUG [2019-11-09 10:50:48]  << X-Content-Type-Options: nosniff
+169227 DEBUG [2019-11-09 10:50:48]  << X-XSS-Protection: 1; mode=block
+169227 DEBUG [2019-11-09 10:50:48]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+169227 DEBUG [2019-11-09 10:50:48]  << Pragma: no-cache
+169227 DEBUG [2019-11-09 10:50:48]  << Expires: 0
+169227 DEBUG [2019-11-09 10:50:48]  << X-Frame-Options: SAMEORIGIN
+169227 DEBUG [2019-11-09 10:50:48]  << Content-Type: application/json
+169227 DEBUG [2019-11-09 10:50:48]  << Date: Sat, 09 Nov 2019 02:50:48 GMT
+169227 DEBUG [2019-11-09 10:50:48]  Connection can be kept alive indefinitely
+169227 DEBUG [2019-11-09 10:50:48]  Released connection is reusable.
+169227 DEBUG [2019-11-09 10:50:48]  Releasing connection [{}->http://localhost:8080][null]
+169227 DEBUG [2019-11-09 10:50:48]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+169227 DEBUG [2019-11-09 10:50:48]  Notifying no-one, there are no waiting threads
+169239 DEBUG [2019-11-09 10:50:48]  Invoking destroy() on bean with name 'springApplicationAdminRegistrar'
+169240 DEBUG [2019-11-09 10:50:48]  Invoking destroy() on bean with name 'mbeanExporter'
+169240 INFO  [2019-11-09 10:50:48]  Unregistering JMX-exposed beans on shutdown
+169678 INFO  [2019-11-09 10:50:49]  Unregistering JMX-exposed beans
+169678 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'mvcValidator': [requestMappingHandlerAdapter]
+169678 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'requestMappingHandlerAdapter': [mvcUriComponentsContributor]
+169679 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'mvcValidator'
+169679 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'defaultValidator'
+169679 DEBUG [2019-11-09 10:50:49]  Invoking destroy method on bean 'org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration': public void org.springframework.cloud.netflix.archaius.ArchaiusAutoConfiguration.close()
+169696 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'redisMessageListenerContainer'
+169696 DEBUG [2019-11-09 10:50:49]  Stopped RedisMessageListenerContainer
+169696 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'springClientFactory': [cachingLBClientFactory, feignClient, loadBalancerClient]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'cachingLBClientFactory': [feignClient]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'loadBalancerClient': [asyncLoadBalancerInterceptor, loadBalancerRequestFactory, ribbonInterceptor]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'asyncLoadBalancerInterceptor': [asyncRestTemplateCustomizer]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'asyncRestTemplateCustomizer': [loadBalancedAsyncRestTemplateInitializer]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'loadBalancerRequestFactory': [ribbonInterceptor]
+169697 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'ribbonInterceptor': [restTemplateCustomizer]
+169698 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'springClientFactory'
+169698 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'mvcResourceUrlProvider': [requestMappingHandlerMapping]
+169698 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'feignContext'
+169698 INFO  [2019-11-09 10:50:49]  Closing FeignContext-app-w-member: startup date [Sat Nov 09 10:48:06 CST 2019]; parent: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea
+169700 WARN  [2019-11-09 10:50:49]  Exception thrown from ApplicationListener handling ContextClosedEvent
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:214)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:291)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:261)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:182)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:144)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967)
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:577)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:549)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+169700 DEBUG [2019-11-09 10:50:49]  Returning cached instance of singleton bean 'lifecycleProcessor'
+169700 DEBUG [2019-11-09 10:50:49]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4a92c6a9: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertyPlaceholderAutoConfiguration,feignClientsConfiguration,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,propertySourcesPlaceholderConfigurer,org.springframework.cloud.openfeign.FeignClientsConfiguration$HystrixFeignConfiguration,feignDecoder,feignEncoder,feignContract,feignConversionService,feignRetryer,feignBuilder,feignLoggerFactory]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@1f9d6c7b
+169700 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'characterEncodingFilter'
+169701 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'httpPutFormContentFilter'
+169701 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'hiddenHttpMethodFilter'
+169701 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'requestContextFilter'
+169701 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'connectionFactory': [stringRedisTemplate, redisTemplate]
+169701 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'stringRedisTemplate': [redisUtil]
+169701 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'redisUtil': [generateToken]
+169701 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'redisTemplate': [redisReferenceResolver]
+169701 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'redisReferenceResolver': [redisConverter]
+169701 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'connectionFactory'
+169703 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'xxlSsoConfig'
+169712 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'
+169712 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'refreshScope': [contextRefresher]
+169712 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'contextRefresher': [refreshEventListener]
+169713 DEBUG [2019-11-09 10:50:49]  Invoking destroy() on bean with name 'refreshScope'
+169713 DEBUG [2019-11-09 10:50:49]  Invoking destroy method on bean 'scopedTarget.eurekaClient': public synchronized void com.netflix.discovery.DiscoveryClient.shutdown()
+169714 DEBUG [2019-11-09 10:50:49]  Creating instance of bean 'scopedTarget.eurekaApplicationInfoManager'
+169714 DEBUG [2019-11-09 10:50:49]  Returning cached instance of singleton bean 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration'
+169716 WARN  [2019-11-09 10:50:49]  Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient'
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:214)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1065)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:815)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:764)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:406)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390)
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.netflix.appinfo.ApplicationInfoManager$$EnhancerBySpringCGLIB$$cecd83ea.unregisterStatusChangeListener(<generated>)
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:891)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:365)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:323)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:155)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:240)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:233)
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:404)
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:139)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:577)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:549)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:510)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937)
+169717 DEBUG [2019-11-09 10:50:49]  Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]

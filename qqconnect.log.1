@@ -1,0 +1,916 @@
+16937 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'org.springframework.session.data.redis.config.annotation.web.http.RedisHttpSessionConfiguration'
+16942 DEBUG [2019-11-09 10:48:16]  Could not find default TaskScheduler bean
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.scheduling.TaskScheduler' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:992)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:990)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.resolveSchedulerBean(ScheduledAnnotationBeanPostProcessor.java:293)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:234)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:211)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:102)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:888)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.w.AppPortalWeb.main(AppPortalWeb.java:19)
+16949 DEBUG [2019-11-09 10:48:16]   >> "184[\r][\n]"
+16950 DEBUG [2019-11-09 10:48:16]   >> "{"instance":{"instanceId":"windows10.microdone.cn:app-w-portal-web:80","hostName":"windows10.microdone.cn","app":"APP-W-PORTAL-WEB","ipAddr":"192.168.32.1","status":"UP","overriddenStatus":"UNKNOWN","port":{"$":80,"@enabled":"true"},"securePort":{"$":443,"@enabled":"false"},"countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"}"
+16950 DEBUG [2019-11-09 10:48:16]   >> "[\r][\n]"
+16951 DEBUG [2019-11-09 10:48:16]  Could not find default ScheduledExecutorService bean
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.util.concurrent.ScheduledExecutorService' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:992)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:990)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.resolveSchedulerBean(ScheduledAnnotationBeanPostProcessor.java:293)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.finishRegistration(ScheduledAnnotationBeanPostProcessor.java:255)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:211)
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.onApplicationEvent(ScheduledAnnotationBeanPostProcessor.java:102)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:888)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.w.AppPortalWeb.main(AppPortalWeb.java:19)
+16952 INFO  [2019-11-09 10:48:16]  No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+16959 DEBUG [2019-11-09 10:48:16]  Looking for resource handler mappings
+16960 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'faviconHandlerMapping'
+16960 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'resourceHandlerMapping'
+16960 DEBUG [2019-11-09 10:48:16]  Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@76d1f6ea]
+16960 DEBUG [2019-11-09 10:48:16]  Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@55fe9c2f]
+16960 DEBUG [2019-11-09 10:48:16]  Found resource handler mapping: URL pattern="/**", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3580134d]
+16960 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+16961 DEBUG [2019-11-09 10:48:16]  Found key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties' with value of type String
+16969 DEBUG [2019-11-09 10:48:16]   >> "9d[\r][\n]"
+16969 DEBUG [2019-11-09 10:48:16]   >> ","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":0,"lastRenewalTimestamp":0,"evictionTimestamp":0,"serviceUpTimestamp":0}"
+16969 DEBUG [2019-11-09 10:48:16]   >> "[\r][\n]"
+16982 DEBUG [2019-11-09 10:48:16]   >> "24[\r][\n]"
+16982 DEBUG [2019-11-09 10:48:16]   >> ","metadata":{"management.port":"80"}"
+16983 DEBUG [2019-11-09 10:48:16]   >> "[\r][\n]"
+16984 DEBUG [2019-11-09 10:48:16]   >> "173[\r][\n]"
+16984 DEBUG [2019-11-09 10:48:16]   >> ","homePageUrl":"http://windows10.microdone.cn:80/","statusPageUrl":"http://windows10.microdone.cn:80/actuator/info","healthCheckUrl":"http://windows10.microdone.cn:80/actuator/health","vipAddress":"app-w-portal-web","secureVipAddress":"app-w-portal-web","isCoordinatingDiscoveryServer":"false","lastUpdatedTimestamp":"1573267692620","lastDirtyTimestamp":"1573267696486"}}"
+16984 DEBUG [2019-11-09 10:48:16]   >> "[\r][\n]"
+16984 DEBUG [2019-11-09 10:48:16]   >> "0[\r][\n]"
+16984 DEBUG [2019-11-09 10:48:16]   >> "[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "HTTP/1.1 204 No Content[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Server: Apache-Coyote/1.1[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "X-Content-Type-Options: nosniff[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Pragma: no-cache[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Expires: 0[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Content-Type: application/json[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "Date: Sat, 09 Nov 2019 02:48:16 GMT[\r][\n]"
+16985 DEBUG [2019-11-09 10:48:16]   << "[\r][\n]"
+16986 DEBUG [2019-11-09 10:48:16]  Receiving response: HTTP/1.1 204 No Content
+16986 DEBUG [2019-11-09 10:48:16]  << HTTP/1.1 204 No Content
+16986 DEBUG [2019-11-09 10:48:16]  << Server: Apache-Coyote/1.1
+16986 DEBUG [2019-11-09 10:48:16]  << X-Content-Type-Options: nosniff
+16986 DEBUG [2019-11-09 10:48:16]  << X-XSS-Protection: 1; mode=block
+16986 DEBUG [2019-11-09 10:48:16]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+16986 DEBUG [2019-11-09 10:48:16]  << Pragma: no-cache
+16986 DEBUG [2019-11-09 10:48:16]  << Expires: 0
+16986 DEBUG [2019-11-09 10:48:16]  << X-Frame-Options: SAMEORIGIN
+16986 DEBUG [2019-11-09 10:48:16]  << Content-Type: application/json
+16986 DEBUG [2019-11-09 10:48:16]  << Date: Sat, 09 Nov 2019 02:48:16 GMT
+16986 DEBUG [2019-11-09 10:48:16]  Connection can be kept alive indefinitely
+16986 DEBUG [2019-11-09 10:48:16]  Released connection is reusable.
+16986 DEBUG [2019-11-09 10:48:16]  Releasing connection [{}->http://localhost:8080][null]
+16986 DEBUG [2019-11-09 10:48:16]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+16986 DEBUG [2019-11-09 10:48:16]  Notifying no-one, there are no waiting threads
+17007 INFO  [2019-11-09 10:48:16]  Tomcat started on port(s): 80 (http) with context path ''
+17008 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'springApplicationAdminRegistrar'
+17008 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'eurekaAutoServiceRegistration'
+17008 INFO  [2019-11-09 10:48:16]  Updating port to 80
+17009 DEBUG [2019-11-09 10:48:16]  Adding PropertySource 'server.ports' with highest search precedence
+17009 DEBUG [2019-11-09 10:48:16]  Adding PropertySource 'server.ports' with highest search precedence
+17011 INFO  [2019-11-09 10:48:16]  Started AppPortalWeb in 17.16 seconds (JVM running for 19.001)
+17013 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'springApplicationAdminRegistrar'
+17013 DEBUG [2019-11-09 10:48:16]  Returning cached instance of singleton bean 'refreshEventListener'
+18317 DEBUG [2019-11-09 10:48:17]  Found key 'local.server.port' in PropertySource 'server.ports' with value of type Integer
+18321 DEBUG [2019-11-09 10:48:17]  Could not find key 'server.ssl.key-store' in any property source
+18322 DEBUG [2019-11-09 10:48:17]  Could not find key 'server.servlet.context-path' in any property source
+18322 DEBUG [2019-11-09 10:48:17]  Could not find key 'server.servlet.path' in any property source
+18323 DEBUG [2019-11-09 10:48:17]  Could not find key 'server.address' in any property source
+30405 DEBUG [2019-11-09 10:48:29]  Initializing servlet 'dispatcherServlet'
+30407 INFO  [2019-11-09 10:48:29]  FrameworkServlet 'dispatcherServlet': initialization started
+30407 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'multipartResolver'
+30407 DEBUG [2019-11-09 10:48:29]  Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@1d60059f]
+30408 DEBUG [2019-11-09 10:48:29]  Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+30414 DEBUG [2019-11-09 10:48:29]  Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+30414 DEBUG [2019-11-09 10:48:29]  Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3ad6d52a]
+30415 DEBUG [2019-11-09 10:48:29]  Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+30422 DEBUG [2019-11-09 10:48:29]  Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+30422 DEBUG [2019-11-09 10:48:29]  Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@599c05]
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'faviconHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'beanNameHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'resourceHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+30423 DEBUG [2019-11-09 10:48:29]  Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+30424 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'errorAttributes'
+30424 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'handlerExceptionResolver'
+30425 DEBUG [2019-11-09 10:48:30]  Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+30430 DEBUG [2019-11-09 10:48:30]  Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+30430 DEBUG [2019-11-09 10:48:30]  Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2fba786b]
+30430 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'beanNameViewResolver'
+30430 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'mvcViewResolver'
+30430 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'defaultViewResolver'
+30430 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'viewResolver'
+30430 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'freeMarkerViewResolver'
+30432 DEBUG [2019-11-09 10:48:30]  Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+30442 DEBUG [2019-11-09 10:48:30]  Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+30442 DEBUG [2019-11-09 10:48:30]  Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@448d9575]
+30443 DEBUG [2019-11-09 10:48:30]  Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+30443 INFO  [2019-11-09 10:48:30]  FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+30443 DEBUG [2019-11-09 10:48:30]  Servlet 'dispatcherServlet' configured successfully
+30463 DEBUG [2019-11-09 10:48:30]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@55d61131
+30476 DEBUG [2019-11-09 10:48:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/register]
+30477 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30478 DEBUG [2019-11-09 10:48:30]  Looking up handler method for path /register
+30481 DEBUG [2019-11-09 10:48:30]  Returning handler method [public java.lang.String com.w.member.controller.RegisterController.getRegister()]
+30481 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'registerController'
+30481 DEBUG [2019-11-09 10:48:30]  Last-Modified value for [/register] is: -1
+30499 DEBUG [2019-11-09 10:48:30]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+30499 DEBUG [2019-11-09 10:48:30]  No matching bean found for view name 'member/register'
+30501 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'freeMarkerConfigurer'
+30506 DEBUG [2019-11-09 10:48:30]  Invoking afterPropertiesSet() on bean with name 'member/register'
+30507 DEBUG [2019-11-09 10:48:30]  Couldn't find template in cache for "member/register.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+30509 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("member/register_zh_CN.ftl"): Not found
+30510 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("member/register_zh.ftl"): Not found
+30511 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("member/register.ftl"): Found
+30511 DEBUG [2019-11-09 10:48:30]  Loading template for "member/register.ftl"("zh_CN", UTF-8, parsed) from "E:\\ideaWorkspace\\w-shop-parent\\w-shop-portal\\w-shop-portal-web\\target\\classes\\templates\\member\\register.ftl"
+30605 DEBUG [2019-11-09 10:48:30]  Invoking afterPropertiesSet() on bean with name 'member/register'
+30606 DEBUG [2019-11-09 10:48:30]  Returning [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'member/register'; URL [member/register.ftl]] based on requested media type 'text/html'
+30606 DEBUG [2019-11-09 10:48:30]  Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'member/register'; URL [member/register.ftl]] in DispatcherServlet with name 'dispatcherServlet'
+30608 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.session.SessionRepository.invalidSessionId' with value [true] to model
+30608 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.context.request.async.WebAsyncManager.WEB_ASYNC_MANAGER' with value [org.springframework.web.context.request.async.WebAsyncManager@4dcfbf15] to model
+30608 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.CONTEXT' with value [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea: startup date [Sat Nov 09 10:48:04 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@388526fb] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'hiddenHttpMethodFilter.FILTERED' with value [true] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.session.web.http.SessionRepositoryFilter.FILTERED' with value [true] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.resource.ResourceUrlProvider' with value [org.springframework.web.servlet.resource.ResourceUrlProvider@c689973] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.View.selectedContentType' with value [text/html] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'xxl_sso_user' with value [com.xxl.sso.core.user.XxlSsoUser@bec6a6f] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.session.SessionRepository' with value [org.springframework.session.data.redis.RedisOperationsSessionRepository@1d84340f] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'characterEncodingFilter.FILTERED' with value [true] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE' with value [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea: startup date [Sat Nov 09 10:48:04 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@388526fb] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER' with value [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3ad6d52a] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.bestMatchingPattern' with value [/register] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'requestContextFilter.FILTERED' with value [true] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.OUTPUT_FLASH_MAP' with value [FlashMap [attributes={}, targetRequestPath=null, targetRequestParams={}]] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'httpPutFormContentFilter.FILTERED' with value [true] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping' with value [/register] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.FLASH_MAP_MANAGER' with value [org.springframework.web.servlet.support.SessionFlashMapManager@448d9575] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.uriTemplateVariables' with value [{}] to model
+30609 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER' with value [org.springframework.web.servlet.theme.FixedThemeResolver@599c05] to model
+30611 DEBUG [2019-11-09 10:48:30]  Exposing request attribute 'org.springframework.core.convert.ConversionService' with value [ConversionService converters =
+	@org.springframework.format.annotation.DateTimeFormat java.lang.Long -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,@org.springframework.format.annotation.NumberFormat java.lang.Long -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalDate -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@64163766
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@3a531511
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@2cf0da3a
+	@org.springframework.format.annotation.DateTimeFormat java.time.OffsetDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.OffsetDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@758bdf89
+	@org.springframework.format.annotation.DateTimeFormat java.time.OffsetTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.OffsetTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@6652dfe
+	@org.springframework.format.annotation.DateTimeFormat java.time.ZonedDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.ZonedDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@65df1a5b
+	@org.springframework.format.annotation.DateTimeFormat java.util.Calendar -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	@org.springframework.format.annotation.DateTimeFormat java.util.Date -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDate -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalDate -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@33d375e2
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDateTime -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalDateTime -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@20a2dc9
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalTime -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalTime -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@686555af
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.ReadableInstant -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.ReadableInstant -> java.lang.String : org.springframework.format.datetime.joda.ReadableInstantPrinter@79bf082f
+	@org.springframework.format.annotation.NumberFormat java.lang.Byte -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Double -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Float -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Integer -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Short -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.math.BigDecimal -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.math.BigInteger -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.Boolean -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@4d52d68b
+	java.lang.Character -> java.lang.Number : org.springframework.core.convert.support.CharacterToNumberFactory@6f23f87a
+	java.lang.Character -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@361063ff
+	java.lang.Enum -> java.lang.Integer : org.springframework.core.convert.support.EnumToIntegerConverter@2e6deb4d
+	java.lang.Enum -> java.lang.String : org.springframework.core.convert.support.EnumToStringConverter@4fed5e20
+	java.lang.Integer -> java.lang.Enum : org.springframework.core.convert.support.IntegerToEnumConverterFactory@75509de2
+	java.lang.Long -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$LongToInstantConverter@3d03c016
+	java.lang.Long -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$LongToCalendarConverter@2939ad0f,java.lang.Long -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$LongToCalendarConverter@1c3c4658
+	java.lang.Long -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$LongToDateConverter@597a7d2a,java.lang.Long -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$LongToDateConverter@375c505a
+	java.lang.Long -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$LongToReadableInstantConverter@1af8dfad
+	java.lang.Number -> java.lang.Character : org.springframework.core.convert.support.NumberToCharacterConverter@71006baf
+	java.lang.Number -> java.lang.Number : org.springframework.core.convert.support.NumberToNumberConverterFactory@7d63bd6d
+	java.lang.Number -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@667f0855
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.lang.Long: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Long: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalDate: org.springframework.format.datetime.standard.TemporalAccessorParser@47b65882
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@4fd42891
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalTime: org.springframework.format.datetime.standard.TemporalAccessorParser@6fabb285
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.OffsetDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.OffsetDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@1b75e109
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.OffsetTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.OffsetTime: org.springframework.format.datetime.standard.TemporalAccessorParser@44eabb96
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.ZonedDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.ZonedDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@57d2a3ff
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.util.Calendar: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.util.Date: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDate: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalDate: org.springframework.format.datetime.joda.LocalDateParser@6f0ac182
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDateTime: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalDateTime: org.springframework.format.datetime.joda.LocalDateTimeParser@3bb5eadb
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalTime: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalTime: org.springframework.format.datetime.joda.LocalTimeParser@2ade3115
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.ReadableInstant: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.ReadableInstant: org.springframework.format.datetime.joda.DateTimeParser@2232d894
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Byte: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Double: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Float: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Integer: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Short: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.math.BigDecimal: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.math.BigInteger: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> java.lang.Boolean : org.springframework.core.convert.support.StringToBooleanConverter@78e85df2
+	java.lang.String -> java.lang.Character : org.springframework.core.convert.support.StringToCharacterConverter@56f83498
+	java.lang.String -> java.lang.Enum : org.springframework.core.convert.support.StringToEnumConverterFactory@3f7d919d
+	java.lang.String -> java.lang.Number : org.springframework.core.convert.support.StringToNumberConverterFactory@f5901cb
+	java.lang.String -> java.nio.charset.Charset : org.springframework.core.convert.support.StringToCharsetConverter@29b812d2
+	java.lang.String -> java.time.Duration: org.springframework.format.datetime.standard.DurationFormatter@745a460f
+	java.lang.String -> java.time.Instant: org.springframework.format.datetime.standard.InstantFormatter@6fb65315
+	java.lang.String -> java.time.Month: org.springframework.format.datetime.standard.MonthFormatter@388eac58
+	java.lang.String -> java.time.MonthDay: org.springframework.format.datetime.standard.MonthDayFormatter@39c84359
+	java.lang.String -> java.time.Period: org.springframework.format.datetime.standard.PeriodFormatter@5b7f8a43
+	java.lang.String -> java.time.Year: org.springframework.format.datetime.standard.YearFormatter@657d6519
+	java.lang.String -> java.time.YearMonth: org.springframework.format.datetime.standard.YearMonthFormatter@1f841498
+	java.lang.String -> java.util.Currency : org.springframework.core.convert.support.StringToCurrencyConverter@6e349410
+	java.lang.String -> java.util.Locale : org.springframework.core.convert.support.StringToLocaleConverter@7d4f6664
+	java.lang.String -> java.util.Properties : org.springframework.core.convert.support.StringToPropertiesConverter@6eb13d68
+	java.lang.String -> java.util.TimeZone : org.springframework.core.convert.support.StringToTimeZoneConverter@7279fe48
+	java.lang.String -> java.util.UUID : org.springframework.core.convert.support.StringToUUIDConverter@39251215
+	java.lang.String -> org.joda.time.Duration: org.springframework.format.datetime.joda.DurationFormatter@65f212a7
+	java.lang.String -> org.joda.time.MonthDay: org.springframework.format.datetime.joda.MonthDayFormatter@504f122b
+	java.lang.String -> org.joda.time.Period: org.springframework.format.datetime.joda.PeriodFormatter@7185dd7e
+	java.lang.String -> org.joda.time.YearMonth: org.springframework.format.datetime.joda.YearMonthFormatter@640d9046
+	java.lang.String -> org.springframework.data.geo.Distance: INSTANCE
+	java.lang.String -> org.springframework.data.geo.Point: INSTANCE
+	java.nio.charset.Charset -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@68ceb32b
+	java.time.Duration -> java.lang.String : org.springframework.format.datetime.standard.DurationFormatter@745a460f
+	java.time.Instant -> java.lang.Long : org.springframework.format.datetime.standard.DateTimeConverters$InstantToLongConverter@58d66f69
+	java.time.Instant -> java.lang.String : org.springframework.format.datetime.standard.InstantFormatter@6fb65315
+	java.time.LocalDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$LocalDateTimeToLocalDateConverter@1625ebd8
+	java.time.LocalDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$LocalDateTimeToLocalTimeConverter@432eb7c6
+	java.time.Month -> java.lang.String : org.springframework.format.datetime.standard.MonthFormatter@388eac58
+	java.time.MonthDay -> java.lang.String : org.springframework.format.datetime.standard.MonthDayFormatter@39c84359
+	java.time.OffsetDateTime -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToInstantConverter@4fbeba1
+	java.time.OffsetDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalDateConverter@2c641d50
+	java.time.OffsetDateTime -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalDateTimeConverter@2a9e5fd3
+	java.time.OffsetDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalTimeConverter@306e96a
+	java.time.OffsetDateTime -> java.time.ZonedDateTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToZonedDateTimeConverter@8f9e973
+	java.time.Period -> java.lang.String : org.springframework.format.datetime.standard.PeriodFormatter@5b7f8a43
+	java.time.Year -> java.lang.String : org.springframework.format.datetime.standard.YearFormatter@657d6519
+	java.time.YearMonth -> java.lang.String : org.springframework.format.datetime.standard.YearMonthFormatter@1f841498
+	java.time.ZoneId -> java.util.TimeZone : org.springframework.core.convert.support.ZoneIdToTimeZoneConverter@6b40ae67
+	java.time.ZonedDateTime -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToInstantConverter@28315e85
+	java.time.ZonedDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalDateConverter@271b2b79
+	java.time.ZonedDateTime -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalDateTimeConverter@6029fc9a
+	java.time.ZonedDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalTimeConverter@596bb744
+	java.time.ZonedDateTime -> java.time.OffsetDateTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToOffsetDateTimeConverter@560ff7de
+	java.time.ZonedDateTime -> java.util.Calendar : org.springframework.core.convert.support.ZonedDateTimeToCalendarConverter@bf80dcb
+	java.util.Calendar -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToLongConverter@697ef0be,java.util.Calendar -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToLongConverter@1cc53ebe
+	java.util.Calendar -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToInstantConverter@691f05d9
+	java.util.Calendar -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalDateConverter@2fcf60ec
+	java.util.Calendar -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalDateTimeConverter@54ef345b
+	java.util.Calendar -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalTimeConverter@74b23057
+	java.util.Calendar -> java.time.OffsetDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToOffsetDateTimeConverter@683abee9
+	java.util.Calendar -> java.time.ZonedDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToZonedDateTimeConverter@30821fed
+	java.util.Calendar -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToDateConverter@3daf0ab6,java.util.Calendar -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToDateConverter@2179e631
+	java.util.Calendar -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$CalendarToReadableInstantConverter@5fa97251
+	java.util.Currency -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@7f691c6
+	java.util.Date -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$DateToLongConverter@24e56d6,java.util.Date -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$DateToLongConverter@2d863993
+	java.util.Date -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$DateToCalendarConverter@6de4a56d,java.util.Date -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$DateToCalendarConverter@4d271d22
+	java.util.Date -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$DateToReadableInstantConverter@6f387936
+	java.util.Locale -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@58763bb3
+	java.util.Properties -> java.lang.String : org.springframework.core.convert.support.PropertiesToStringConverter@737b8c7e
+	java.util.UUID -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@aeecc56
+	org.joda.time.DateTime -> java.lang.Long : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLongConverter@5a28d42
+	org.joda.time.DateTime -> java.util.Calendar : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToCalendarConverter@4e416abb
+	org.joda.time.DateTime -> java.util.Date : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateConverter@545c8fb7
+	org.joda.time.DateTime -> org.joda.time.DateMidnight : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateMidnightConverter@3e84906f
+	org.joda.time.DateTime -> org.joda.time.Instant : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToInstantConverter@7f52a444
+	org.joda.time.DateTime -> org.joda.time.LocalDate : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateConverter@3793bcd4
+	org.joda.time.DateTime -> org.joda.time.LocalDateTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateTimeConverter@452dc118
+	org.joda.time.DateTime -> org.joda.time.LocalTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalTimeConverter@7a323a12
+	org.joda.time.DateTime -> org.joda.time.MutableDateTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToMutableDateTimeConverter@145bfe77
+	org.joda.time.Duration -> java.lang.String : org.springframework.format.datetime.joda.DurationFormatter@65f212a7
+	org.joda.time.LocalDateTime -> org.joda.time.LocalDate : org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalDateConverter@b21892d
+	org.joda.time.LocalDateTime -> org.joda.time.LocalTime : org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalTimeConverter@27fcb0b6
+	org.joda.time.MonthDay -> java.lang.String : org.springframework.format.datetime.joda.MonthDayFormatter@504f122b
+	org.joda.time.Period -> java.lang.String : org.springframework.format.datetime.joda.PeriodFormatter@7185dd7e
+	org.joda.time.YearMonth -> java.lang.String : org.springframework.format.datetime.joda.YearMonthFormatter@640d9046
+	org.springframework.core.convert.support.ArrayToArrayConverter@53c09455
+	org.springframework.core.convert.support.ArrayToCollectionConverter@6d53fa1e
+	org.springframework.core.convert.support.ArrayToObjectConverter@4087e116
+	org.springframework.core.convert.support.ArrayToStringConverter@3b5e23c8
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.CollectionToArrayConverter@426493b6
+	org.springframework.core.convert.support.CollectionToCollectionConverter@2fb06e07
+	org.springframework.core.convert.support.CollectionToObjectConverter@10730b94
+	org.springframework.core.convert.support.CollectionToStringConverter@580944c2
+	org.springframework.core.convert.support.FallbackObjectToStringConverter@2f73c3d2
+	org.springframework.core.convert.support.MapToMapConverter@5dc1f2e5
+	org.springframework.core.convert.support.ObjectToArrayConverter@12836539
+	org.springframework.core.convert.support.ObjectToCollectionConverter@19d01e0e
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StringToArrayConverter@6c6b7aca
+	org.springframework.core.convert.support.StringToCollectionConverter@6f83c823
+	org.springframework.data.geo.Distance -> java.lang.String : INSTANCE
+	org.springframework.data.geo.Point -> java.lang.String : INSTANCE
+	org.springframework.data.repository.support.DomainClassConverter$ToIdConverter@286ee0d,org.springframework.data.repository.support.DomainClassConverter$ToEntityConverter@3f30cbab,org.springframework.core.convert.support.IdToEntityConverter@51ed79bc,org.springframework.core.convert.support.ObjectToObjectConverter@1a30b01f
+] to model
+30611 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'request' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.session.SessionRepository.invalidSessionId' of type [java.lang.String] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.context.request.async.WebAsyncManager.WEB_ASYNC_MANAGER' of type [org.springframework.web.context.request.async.WebAsyncManager] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.CONTEXT' of type [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'hiddenHttpMethodFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.session.web.http.SessionRepositoryFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.resource.ResourceUrlProvider' of type [org.springframework.web.servlet.resource.ResourceUrlProvider] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.View.selectedContentType' of type [org.springframework.http.MediaType] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'xxl_sso_user' of type [com.xxl.sso.core.user.XxlSsoUser] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.session.SessionRepository' of type [org.springframework.session.data.redis.RedisOperationsSessionRepository] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'characterEncodingFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE' of type [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER' of type [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.HandlerMapping.bestMatchingPattern' of type [java.lang.String] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'requestContextFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.OUTPUT_FLASH_MAP' of type [org.springframework.web.servlet.FlashMap] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'httpPutFormContentFilter.FILTERED' of type [java.lang.Boolean] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping' of type [java.lang.String] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.FLASH_MAP_MANAGER' of type [org.springframework.web.servlet.support.SessionFlashMapManager] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.HandlerMapping.uriTemplateVariables' of type [java.util.LinkedHashMap] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER' of type [org.springframework.web.servlet.theme.FixedThemeResolver] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'org.springframework.core.convert.ConversionService' of type [org.springframework.boot.autoconfigure.web.format.WebConversionService] to request in view with name 'member/register'
+30614 DEBUG [2019-11-09 10:48:30]  Added model object 'springMacroRequestContext' of type [org.springframework.web.servlet.support.RequestContext] to request in view with name 'member/register'
+30615 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30616 DEBUG [2019-11-09 10:48:30]  Rendering FreeMarker template [member/register.ftl] in FreeMarkerView 'member/register'
+30616 DEBUG [2019-11-09 10:48:30]  "member/register.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+30624 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30627 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30627 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30628 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30628 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30628 DEBUG [2019-11-09 10:48:30]  Couldn't find template in cache for "base/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+30629 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+30630 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+30630 DEBUG [2019-11-09 10:48:30]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+30630 DEBUG [2019-11-09 10:48:30]  Loading template for "base/bottom.ftl"("zh_CN", UTF-8, parsed) from "E:\\ideaWorkspace\\w-shop-parent\\w-shop-portal\\w-shop-portal-web\\target\\classes\\templates\\base\\bottom.ftl"
+30643 DEBUG [2019-11-09 10:48:30]  Successfully completed request
+30645 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30645 DEBUG [2019-11-09 10:48:30]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@55d61131
+30662 DEBUG [2019-11-09 10:48:30]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@1b8a45b9
+30663 DEBUG [2019-11-09 10:48:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/getVerify]
+30663 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30664 DEBUG [2019-11-09 10:48:30]  Looking up handler method for path /getVerify
+30664 DEBUG [2019-11-09 10:48:30]  Returning handler method [public void com.w.code.VerifyController.getVerify(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+30664 DEBUG [2019-11-09 10:48:30]  Returning cached instance of singleton bean 'verifyController'
+30664 DEBUG [2019-11-09 10:48:30]  Last-Modified value for [/getVerify] is: -1
+30672 DEBUG [2019-11-09 10:48:30]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+30672 DEBUG [2019-11-09 10:48:30]  A new session was created. To help you troubleshoot where the session was created we provided a StackTrace (this is not an error). You can prevent this from appearing by disabling DEBUG logging for org.springframework.session.web.http.SessionRepositoryFilter.SESSION_LOGGER
+java.lang.RuntimeException: For debugging purposes only (not an error)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:329)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:351)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:196)
+	at com.w.web.utils.RandomValidateCodeUtil.getRandcode(RandomValidateCodeUtil.java:56)
+	at com.w.code.VerifyController.getVerify(VerifyController.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xxl.sso.core.filter.XxlSsoWebFilter.doFilter(XxlSsoWebFilter.java:112)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:146)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+31988 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+31990 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+31992 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+31994 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+31995 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+31997 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+31999 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+32001 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+32001 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+32001 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+32001 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+32001 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+32002 DEBUG [2019-11-09 10:48:31]  Opening RedisConnection
+32002 DEBUG [2019-11-09 10:48:31]  Closing Redis Connection
+32006 DEBUG [2019-11-09 10:48:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+32006 DEBUG [2019-11-09 10:48:31]  Successfully completed request
+32006 DEBUG [2019-11-09 10:48:31]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@1b8a45b9
+32008 DEBUG [2019-11-09 10:48:31]  Returning cached instance of singleton bean 'sessionEventHttpSessionListenerAdapter'
+45499 DEBUG [2019-11-09 10:48:45]  Closing connections idle longer than 30000 SECONDS
+45499 DEBUG [2019-11-09 10:48:45]  Closing connections idle longer than 30000 SECONDS
+46896 DEBUG [2019-11-09 10:48:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+46897 DEBUG [2019-11-09 10:48:46]  [{}->http://localhost:8080] total kept alive: 1, total issued: 0, total allocated: 1 out of 200
+46897 DEBUG [2019-11-09 10:48:46]  Getting free connection [{}->http://localhost:8080][null]
+46897 DEBUG [2019-11-09 10:48:46]  Stale connection check
+46897 DEBUG [2019-11-09 10:48:46]  Get connection: {}->http://localhost:8080, timeout = 5000
+46897 DEBUG [2019-11-09 10:48:46]  [{}->http://localhost:8080] total kept alive: 0, total issued: 1, total allocated: 1 out of 200
+46897 DEBUG [2019-11-09 10:48:46]  No free connections [{}->http://localhost:8080][null]
+46897 DEBUG [2019-11-09 10:48:46]  Available capacity: 49 out of 50 [{}->http://localhost:8080][null]
+46898 DEBUG [2019-11-09 10:48:46]  Creating new connection [{}->http://localhost:8080]
+46898 DEBUG [2019-11-09 10:48:46]  CookieSpec selected: default
+46898 DEBUG [2019-11-09 10:48:46]  Auth cache not set in the context
+46898 DEBUG [2019-11-09 10:48:46]  Target auth state: UNCHALLENGED
+46898 DEBUG [2019-11-09 10:48:46]  Proxy auth state: UNCHALLENGED
+46898 DEBUG [2019-11-09 10:48:46]  Attempt 1 to execute request
+46898 DEBUG [2019-11-09 10:48:46]  Sending request: GET /eureka/apps/delta HTTP/1.1
+46898 DEBUG [2019-11-09 10:48:46]   >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "Accept: application/json[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "Accept-Encoding: gzip[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "Host: localhost:8080[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "Connection: Keep-Alive[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]   >> "[\r][\n]"
+46898 DEBUG [2019-11-09 10:48:46]  >> GET /eureka/apps/delta HTTP/1.1
+46898 DEBUG [2019-11-09 10:48:46]  >> Accept: application/json
+46898 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Name: DefaultClient
+46899 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Version: 1.4
+46899 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+46899 DEBUG [2019-11-09 10:48:46]  >> Accept-Encoding: gzip
+46899 DEBUG [2019-11-09 10:48:46]  >> Host: localhost:8080
+46899 DEBUG [2019-11-09 10:48:46]  >> Connection: Keep-Alive
+46899 DEBUG [2019-11-09 10:48:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+46899 DEBUG [2019-11-09 10:48:46]   << "HTTP/1.1 200 OK[\r][\n]"
+46899 DEBUG [2019-11-09 10:48:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Pragma: no-cache[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Expires: 0[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Content-Encoding: gzip[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Content-Type: application/json[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Content-Length: 561[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "Date: Sat, 09 Nov 2019 02:48:46 GMT[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]   << "[\r][\n]"
+46900 DEBUG [2019-11-09 10:48:46]  Receiving response: HTTP/1.1 200 OK
+46900 DEBUG [2019-11-09 10:48:46]  << HTTP/1.1 200 OK
+46900 DEBUG [2019-11-09 10:48:46]  << Server: Apache-Coyote/1.1
+46900 DEBUG [2019-11-09 10:48:46]  << X-Content-Type-Options: nosniff
+46900 DEBUG [2019-11-09 10:48:46]  << X-XSS-Protection: 1; mode=block
+46900 DEBUG [2019-11-09 10:48:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+46900 DEBUG [2019-11-09 10:48:46]  << Pragma: no-cache
+46900 DEBUG [2019-11-09 10:48:46]  << Expires: 0
+46900 DEBUG [2019-11-09 10:48:46]  << X-Frame-Options: SAMEORIGIN
+46900 DEBUG [2019-11-09 10:48:46]  << Content-Encoding: gzip
+46900 DEBUG [2019-11-09 10:48:46]  << Content-Type: application/json
+46900 DEBUG [2019-11-09 10:48:46]  << Content-Length: 561
+46900 DEBUG [2019-11-09 10:48:46]  << Date: Sat, 09 Nov 2019 02:48:46 GMT
+46900 DEBUG [2019-11-09 10:48:46]  Connecting to localhost:8080
+46900 DEBUG [2019-11-09 10:48:46]  Connection can be kept alive indefinitely
+46901 DEBUG [2019-11-09 10:48:46]   << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x95]S[0xdb][0x8e][0xda]0[0x10][0xfd][0x17]k[0x1f]I @[0x13][0xc8][0xd3]R[0xb2][0xaa]P[6[0xe2]R[0x1e][0xaa]*[0xf2][0xda][0x3][0xb1][0x9a][0xd8][0x91][0xed]@[0x11][0xe2][0xdf]wL[0x9a][0xbd]uQ[0xb5][0xca]C[0xe2][0xf1][0x99]33[0xe7]LN[0x84]VU![0x18][0xb5]BIC[0xe2][0x13][0xd9][0x83]6[0xee];[0xcb]8[0x14][0x96][0x92][0x98][0xf4][0xc7][0xa4][0xe3]`[0x18][0xca][0xa9][0xc9][0x99][0xe2][0x80][0xd1][0xe5]j[0xb2]X[0xcd][0xe6]_[0xb2] [[0xa7]Y[0x94]5[0x98][0x96][0x8a][0xc4]?OD[0xd2][0xd2]!'i[0xea]m[0xbc][0xf4]~[0xb1][0x9a]|[0xf3]6w[0x9f][0x11])[0xa4][0xb1]T2[0xb8][0xc0][0xda][0xc3][0x8c]#[0xf8] $W[0x7][0x13][0xf4][0xfc]R0[0xad][0xb8][0x92][0xe0]3[0x19]#[0xb5]w[0xf0]*[0xa5]--[0xbc][0x3]<[0xc4][0xa3][0x1e][0xd2][0xe4][0xca][0xd8]yS[0xe4][0xfd][0xbc][0xa6][0xa9]+=T[0x13][0xce]5[0xde][0x5][0xe3][0xbe][0x1f][0x84]#[0x80]/[0x8c]c3[0xb6]F)[0xc8]:[0xc5][0x93]B=[0xb4][0xe0][0x1c][0xe4]s|[0xfe]u~[0xbf][0x99][0xe3][0xa5][0xeb][0xc7]ivC[0xb0][0x9f][0xe][0xb9][0x5]I[0x1f][\n]"
+46901 DEBUG [2019-11-09 10:48:46]   << "pcX][0x3]9#[0x19][0xb0]ZC[0xfa][0x8c][0x1b][0xe][0x7][0xaf][0x80][Z[0x98][0xb][0x92][0xa9]ZZ}t"[0x4][0x1d][0xc2][0xa9][0xa5]S[0x90][0x16][0xf4]Ln[0x95][0xcb][0xbd]e[0x5]5[0xae]<S[0xa5]/[0xc1]n[0xb][0xf1][0xc7][0xc7][0xe1][0x4][0xde][0xfb][0xb3]VB<[0xdc]$[0xb0][0xa5]ua[0x93][0xd7][0x14][0x9d][0xd6][0x8e][0xef][0xc7][0xfb][0x83]t[0x15][0xb][0xa0][0x6]Zz[\r][0x12][0xe][0xb4][0x98]9[0xfc][0xde][0xbd][0x97][0xc0][0xb0][0xda][0x0][0xc7][0xe2][0xb5][0xbe]x[0xda][0xc6][0xc6][0x18][0xd3][0xb0][0x13][0xc6]6[0xf1][0x95]([0x1][0xcb][0x97][0xa8]s[0xf0])[0x1a][0xf4][0xc3]([0x1c]G[0xbd][0x10][0xe7][0xc4][0x8e][0xed][0xa2]![0xbe][0xe][0x82][0xbd]`ohzN8[0x8d]qXW[0xff]$[0x86]Q[0x14][\r][0x7][0x11][0xe]P[0x82][0xa5]N([0xd7]I%[0xdd]A[0x89][0xf3][0xfa][0x8d]+[0x4]7[0xe4][0xec]V[0xa4][0x84][0x14]o[0xd6][0xba][0xc0]Xnm[0x15]w[0xbb]W[0x96]l[0xd4][0xeb]>[0xf9][0xff][0x81][0x1c][0xca]lM[0xad][0xd2]][0xd1][0xe8][0x9c][0x3]-l>[0xcd][0x81][0xfd][0xfe](C[0x93][0x8a][0x1c][0xfb]f;[0xe1][0xe2][0xf8][0xdb][0xe5]'[0xed]^[0xfd][0xf8][0xf]J[0x98][0xa9]R[0x9a][0xb][0x89]>[0xc9]]"[0xc]s[0xeb]|\[0xa2][0xb6][0xa0][0x9f][0x96][0xaf][0xf1]i][0xa1][0x94][0xc0]_[0xc8]M^[0x1a]5[0xfc][0xb]K[0x84][0xb6][0xc7]wA[0xe1]p[0x14][0xba][0xff][0xad]1[0xf3]X]~[0xfd]$[0xb9]K[0xc8][0xf9][0x17]>[0xe7]G41[0x19][0x93]k[0x4][0x0][0x0]"
+46903 DEBUG [2019-11-09 10:48:46]  Released connection is reusable.
+46903 DEBUG [2019-11-09 10:48:46]  Releasing connection [{}->http://localhost:8080][null]
+46903 DEBUG [2019-11-09 10:48:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+46903 DEBUG [2019-11-09 10:48:46]  Notifying no-one, there are no waiting threads
+46905 DEBUG [2019-11-09 10:48:46]  CookieSpec selected: default
+46905 DEBUG [2019-11-09 10:48:46]  Auth cache not set in the context
+46905 DEBUG [2019-11-09 10:48:46]  Target auth state: UNCHALLENGED
+46905 DEBUG [2019-11-09 10:48:46]  Proxy auth state: UNCHALLENGED
+46905 DEBUG [2019-11-09 10:48:46]  Attempt 1 to execute request
+46905 DEBUG [2019-11-09 10:48:46]  Sending request: PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+46905 DEBUG [2019-11-09 10:48:46]   >> "PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1[\r][\n]"
+46905 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Name: DefaultClient[\r][\n]"
+46905 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Version: 1.4[\r][\n]"
+46905 DEBUG [2019-11-09 10:48:46]   >> "DiscoveryIdentity-Id: 192.168.32.1[\r][\n]"
+46905 DEBUG [2019-11-09 10:48:46]   >> "Accept-Encoding: gzip[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]   >> "Content-Length: 0[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]   >> "Host: localhost:8080[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]   >> "Connection: Keep-Alive[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]   >> "User-Agent: Java-EurekaClient/v1.9.3[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]   >> "[\r][\n]"
+46906 DEBUG [2019-11-09 10:48:46]  >> PUT /eureka/apps/APP-W-PORTAL-WEB/windows10.microdone.cn:app-w-portal-web:80?status=UP&lastDirtyTimestamp=1573267696486 HTTP/1.1
+46906 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Name: DefaultClient
+46906 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Version: 1.4
+46906 DEBUG [2019-11-09 10:48:46]  >> DiscoveryIdentity-Id: 192.168.32.1
+46906 DEBUG [2019-11-09 10:48:46]  >> Accept-Encoding: gzip
+46906 DEBUG [2019-11-09 10:48:46]  >> Content-Length: 0
+46906 DEBUG [2019-11-09 10:48:46]  >> Host: localhost:8080
+46906 DEBUG [2019-11-09 10:48:46]  >> Connection: Keep-Alive
+46906 DEBUG [2019-11-09 10:48:46]  >> User-Agent: Java-EurekaClient/v1.9.3
+46907 DEBUG [2019-11-09 10:48:46]   << "HTTP/1.1 200 OK[\r][\n]"
+46907 DEBUG [2019-11-09 10:48:46]   << "Server: Apache-Coyote/1.1[\r][\n]"
+46907 DEBUG [2019-11-09 10:48:46]   << "X-Content-Type-Options: nosniff[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "X-XSS-Protection: 1; mode=block[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Pragma: no-cache[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Expires: 0[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Content-Type: application/xml[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Content-Length: 0[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "Date: Sat, 09 Nov 2019 02:48:46 GMT[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]   << "[\r][\n]"
+46908 DEBUG [2019-11-09 10:48:46]  Receiving response: HTTP/1.1 200 OK
+46908 DEBUG [2019-11-09 10:48:46]  << HTTP/1.1 200 OK
+46908 DEBUG [2019-11-09 10:48:46]  << Server: Apache-Coyote/1.1
+46908 DEBUG [2019-11-09 10:48:46]  << X-Content-Type-Options: nosniff
+46908 DEBUG [2019-11-09 10:48:46]  << X-XSS-Protection: 1; mode=block
+46908 DEBUG [2019-11-09 10:48:46]  << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+46908 DEBUG [2019-11-09 10:48:46]  << Pragma: no-cache
+46908 DEBUG [2019-11-09 10:48:46]  << Expires: 0
+46908 DEBUG [2019-11-09 10:48:46]  << X-Frame-Options: SAMEORIGIN
+46908 DEBUG [2019-11-09 10:48:46]  << Content-Type: application/xml
+46908 DEBUG [2019-11-09 10:48:46]  << Content-Length: 0
+46908 DEBUG [2019-11-09 10:48:46]  << Date: Sat, 09 Nov 2019 02:48:46 GMT
+46908 DEBUG [2019-11-09 10:48:46]  Connection can be kept alive indefinitely
+46908 DEBUG [2019-11-09 10:48:46]  Released connection is reusable.
+46908 DEBUG [2019-11-09 10:48:46]  Releasing connection [{}->http://localhost:8080][null]
+46908 DEBUG [2019-11-09 10:48:46]  Pooling connection [{}->http://localhost:8080][null]; keep alive indefinitely
+46908 DEBUG [2019-11-09 10:48:46]  Notifying no-one, there are no waiting threads
+54654 DEBUG [2019-11-09 10:48:54]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@2a24bbeb
+54656 DEBUG [2019-11-09 10:48:54]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/index.html]
+54656 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54656 DEBUG [2019-11-09 10:48:54]  Looking up handler method for path /index.html
+54658 DEBUG [2019-11-09 10:48:54]  Did not find handler method for [/index.html]
+54658 DEBUG [2019-11-09 10:48:54]  Matching patterns for request [/index.html] are [/**]
+54659 DEBUG [2019-11-09 10:48:54]  URI Template variables for request [/index.html] are {}
+54661 DEBUG [2019-11-09 10:48:54]  Mapping [/index.html] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3580134d]]] and 1 interceptor
+54663 DEBUG [2019-11-09 10:48:54]  Last-Modified value for [/index.html] is: -1
+54669 DEBUG [2019-11-09 10:48:54]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+54670 DEBUG [2019-11-09 10:48:54]  Successfully completed request
+54670 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54670 DEBUG [2019-11-09 10:48:54]  Cleared thread-bound request context: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@2a24bbeb
+54670 DEBUG [2019-11-09 10:48:54]  Bound request context to thread: org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper@410d17
+54672 DEBUG [2019-11-09 10:48:54]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/register]
+54672 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54673 DEBUG [2019-11-09 10:48:54]  Looking up handler method for path /register
+54673 DEBUG [2019-11-09 10:48:54]  Returning handler method [public java.lang.String com.w.member.controller.RegisterController.postRegister(com.w.member.controller.req.vo.RegisterVo,org.springframework.validation.BindingResult,org.springframework.ui.Model,javax.servlet.http.HttpSession)]
+54673 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'registerController'
+54720 DEBUG [2019-11-09 10:48:54]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
+54720 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54720 DEBUG [2019-11-09 10:48:54]  Looking up handler method for path /error
+54721 DEBUG [2019-11-09 10:48:54]  Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+54721 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'basicErrorController'
+54721 DEBUG [2019-11-09 10:48:54]  Last-Modified value for [/error] is: -1
+54722 DEBUG [2019-11-09 10:48:54]  Could not find key 'spring.template.provider.cache' in any property source
+54727 DEBUG [2019-11-09 10:48:54]  Skip CORS processing: request is from same origin
+54730 DEBUG [2019-11-09 10:48:54]  Could not find key 'spring.template.provider.cache' in any property source
+54741 DEBUG [2019-11-09 10:48:54]  Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+54741 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'error'
+54742 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'freeMarkerConfigurer'
+54742 DEBUG [2019-11-09 10:48:54]  Invoking afterPropertiesSet() on bean with name 'error'
+54742 DEBUG [2019-11-09 10:48:54]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+54743 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+54744 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+54744 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("error.ftl"): Not found
+54745 DEBUG [2019-11-09 10:48:54]  No FreeMarker view found for URL: error.ftl
+54745 DEBUG [2019-11-09 10:48:54]  Invoking afterPropertiesSet() on bean with name 'error'
+54745 DEBUG [2019-11-09 10:48:54]  Returning [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@1903b5d] based on requested media type 'text/html'
+54745 DEBUG [2019-11-09 10:48:54]  Rendering view [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@1903b5d] in DispatcherServlet with name 'dispatcherServlet'
+54748 DEBUG [2019-11-09 10:48:54]  Failed to meta-introspect annotation interface org.springframework.web.bind.annotation.ModelAttribute: java.lang.NullPointerException
+54766 DEBUG [2019-11-09 10:48:54]  Successfully completed request
+54766 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54874 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator'
+54881 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator'
+54887 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator'
+54887 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator'
+54887 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'
+54893 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence'
+54904 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator'
+54909 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator'
+54909 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator'
+54909 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator'
+54909 DEBUG [2019-11-09 10:48:54]  Creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator'
+54917 DEBUG [2019-11-09 10:48:54]  Finished creating instance of bean 'org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator'
+54923 DEBUG [2019-11-09 10:48:54]  No session found by id: Caching result for getSession(false) for this HttpServletRequest.
+54923 DEBUG [2019-11-09 10:48:54]  A new session was created. To help you troubleshoot where the session was created we provided a StackTrace (this is not an error). You can prevent this from appearing by disabling DEBUG logging for org.springframework.session.web.http.SessionRepositoryFilter.SESSION_LOGGER
+java.lang.RuntimeException: For debugging purposes only (not an error)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:329)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:351)
+	at org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper.getSession(SessionRepositoryFilter.java:196)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletRequestMethodArgumentResolver.resolveArgument(ServletRequestMethodArgumentResolver.java:135)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletRequestMethodArgumentResolver.resolveArgument(ServletRequestMethodArgumentResolver.java:120)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:124)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:161)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:131)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.xxl.sso.core.filter.XxlSsoWebFilter.doFilter(XxlSsoWebFilter.java:112)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:146)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+54924 DEBUG [2019-11-09 10:48:54]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+54925 DEBUG [2019-11-09 10:48:54]  No matching bean found for view name 'member/register'
+54926 DEBUG [2019-11-09 10:48:54]  Returning cached instance of singleton bean 'freeMarkerConfigurer'
+54926 DEBUG [2019-11-09 10:48:54]  Invoking afterPropertiesSet() on bean with name 'member/register'
+54927 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("member/register_zh_CN.ftl"): Not found
+54927 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("member/register_zh.ftl"): Not found
+54928 DEBUG [2019-11-09 10:48:54]  TemplateLoader.findTemplateSource("member/register.ftl"): Found
+54928 DEBUG [2019-11-09 10:48:54]  "member/register.ftl"("zh_CN", UTF-8, parsed): using cached since E:\ideaWorkspace\w-shop-parent\w-shop-portal\w-shop-portal-web\target\classes\templates\member\register.ftl hasn't changed.
+54928 DEBUG [2019-11-09 10:48:54]  Returning [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'member/register'; URL [member/register.ftl]] based on requested media type 'text/html'
+54928 DEBUG [2019-11-09 10:48:54]  Rendering view [org.springframework.web.servlet.view.freemarker.FreeMarkerView: name 'member/register'; URL [member/register.ftl]] in DispatcherServlet with name 'dispatcherServlet'
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.session.SessionRepository.invalidSessionId' with value [true] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.context.request.async.WebAsyncManager.WEB_ASYNC_MANAGER' with value [org.springframework.web.context.request.async.WebAsyncManager@43e0dfeb] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.CONTEXT' with value [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea: startup date [Sat Nov 09 10:48:04 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@388526fb] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'hiddenHttpMethodFilter.FILTERED' with value [true] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.session.web.http.SessionRepositoryFilter.FILTERED' with value [true] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.resource.ResourceUrlProvider' with value [org.springframework.web.servlet.resource.ResourceUrlProvider@c689973] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.View.selectedContentType' with value [text/html] to model
+54928 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'xxl_sso_user' with value [com.xxl.sso.core.user.XxlSsoUser@72107b8f] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.session.SessionRepository' with value [org.springframework.session.data.redis.RedisOperationsSessionRepository@1d84340f] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'characterEncodingFilter.FILTERED' with value [true] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.THEME_SOURCE' with value [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5fa47fea: startup date [Sat Nov 09 10:48:04 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@388526fb] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.LOCALE_RESOLVER' with value [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@3ad6d52a] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.bestMatchingPattern' with value [/register] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'requestContextFilter.FILTERED' with value [true] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.OUTPUT_FLASH_MAP' with value [FlashMap [attributes={}, targetRequestPath=null, targetRequestParams={}]] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'httpPutFormContentFilter.FILTERED' with value [true] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.pathWithinHandlerMapping' with value [/register] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.FLASH_MAP_MANAGER' with value [org.springframework.web.servlet.support.SessionFlashMapManager@448d9575] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.HandlerMapping.uriTemplateVariables' with value [{}] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.session.SessionRepository.CURRENT_SESSION' with value [org.springframework.session.web.http.SessionRepositoryFilter$SessionRepositoryRequestWrapper$HttpSessionWrapper@4a0ef7de] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.web.servlet.DispatcherServlet.THEME_RESOLVER' with value [org.springframework.web.servlet.theme.FixedThemeResolver@599c05] to model
+54929 DEBUG [2019-11-09 10:48:54]  Exposing request attribute 'org.springframework.core.convert.ConversionService' with value [ConversionService converters =
+	@org.springframework.format.annotation.DateTimeFormat java.lang.Long -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,@org.springframework.format.annotation.NumberFormat java.lang.Long -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalDate -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@64163766
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@3a531511
+	@org.springframework.format.annotation.DateTimeFormat java.time.LocalTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.LocalTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@2cf0da3a
+	@org.springframework.format.annotation.DateTimeFormat java.time.OffsetDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.OffsetDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@758bdf89
+	@org.springframework.format.annotation.DateTimeFormat java.time.OffsetTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.OffsetTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@6652dfe
+	@org.springframework.format.annotation.DateTimeFormat java.time.ZonedDateTime -> java.lang.String: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.time.ZonedDateTime -> java.lang.String : org.springframework.format.datetime.standard.TemporalAccessorPrinter@65df1a5b
+	@org.springframework.format.annotation.DateTimeFormat java.util.Calendar -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	@org.springframework.format.annotation.DateTimeFormat java.util.Date -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDate -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalDate -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@33d375e2
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDateTime -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalDateTime -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@20a2dc9
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalTime -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.LocalTime -> java.lang.String : org.springframework.format.datetime.joda.ReadablePartialPrinter@686555af
+	@org.springframework.format.annotation.DateTimeFormat org.joda.time.ReadableInstant -> java.lang.String: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,org.joda.time.ReadableInstant -> java.lang.String : org.springframework.format.datetime.joda.ReadableInstantPrinter@79bf082f
+	@org.springframework.format.annotation.NumberFormat java.lang.Byte -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Double -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Float -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Integer -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.lang.Short -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.math.BigDecimal -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	@org.springframework.format.annotation.NumberFormat java.math.BigInteger -> java.lang.String: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.Boolean -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@4d52d68b
+	java.lang.Character -> java.lang.Number : org.springframework.core.convert.support.CharacterToNumberFactory@6f23f87a
+	java.lang.Character -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@361063ff
+	java.lang.Enum -> java.lang.Integer : org.springframework.core.convert.support.EnumToIntegerConverter@2e6deb4d
+	java.lang.Enum -> java.lang.String : org.springframework.core.convert.support.EnumToStringConverter@4fed5e20
+	java.lang.Integer -> java.lang.Enum : org.springframework.core.convert.support.IntegerToEnumConverterFactory@75509de2
+	java.lang.Long -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$LongToInstantConverter@3d03c016
+	java.lang.Long -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$LongToCalendarConverter@2939ad0f,java.lang.Long -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$LongToCalendarConverter@1c3c4658
+	java.lang.Long -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$LongToDateConverter@597a7d2a,java.lang.Long -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$LongToDateConverter@375c505a
+	java.lang.Long -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$LongToReadableInstantConverter@1af8dfad
+	java.lang.Number -> java.lang.Character : org.springframework.core.convert.support.NumberToCharacterConverter@71006baf
+	java.lang.Number -> java.lang.Number : org.springframework.core.convert.support.NumberToNumberConverterFactory@7d63bd6d
+	java.lang.Number -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@667f0855
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.lang.Long: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Long: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalDate: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalDate: org.springframework.format.datetime.standard.TemporalAccessorParser@47b65882
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@4fd42891
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.LocalTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.LocalTime: org.springframework.format.datetime.standard.TemporalAccessorParser@6fabb285
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.OffsetDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.OffsetDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@1b75e109
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.OffsetTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.OffsetTime: org.springframework.format.datetime.standard.TemporalAccessorParser@44eabb96
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.time.ZonedDateTime: org.springframework.format.datetime.standard.Jsr310DateTimeFormatAnnotationFormatterFactory@75b6c5c4,java.lang.String -> java.time.ZonedDateTime: org.springframework.format.datetime.standard.TemporalAccessorParser@57d2a3ff
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.util.Calendar: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat java.util.Date: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDate: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalDate: org.springframework.format.datetime.joda.LocalDateParser@6f0ac182
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalDateTime: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalDateTime: org.springframework.format.datetime.joda.LocalDateTimeParser@3bb5eadb
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.LocalTime: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.LocalTime: org.springframework.format.datetime.joda.LocalTimeParser@2ade3115
+	java.lang.String -> @org.springframework.format.annotation.DateTimeFormat org.joda.time.ReadableInstant: org.springframework.format.datetime.joda.JodaDateTimeFormatAnnotationFormatterFactory@33126e35,java.lang.String -> org.joda.time.ReadableInstant: org.springframework.format.datetime.joda.DateTimeParser@2232d894
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Byte: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Double: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Float: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Integer: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.lang.Short: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.math.BigDecimal: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> @org.springframework.format.annotation.NumberFormat java.math.BigInteger: org.springframework.format.number.NumberFormatAnnotationFormatterFactory@2c3d83e5
+	java.lang.String -> java.lang.Boolean : org.springframework.core.convert.support.StringToBooleanConverter@78e85df2
+	java.lang.String -> java.lang.Character : org.springframework.core.convert.support.StringToCharacterConverter@56f83498
+	java.lang.String -> java.lang.Enum : org.springframework.core.convert.support.StringToEnumConverterFactory@3f7d919d
+	java.lang.String -> java.lang.Number : org.springframework.core.convert.support.StringToNumberConverterFactory@f5901cb
+	java.lang.String -> java.nio.charset.Charset : org.springframework.core.convert.support.StringToCharsetConverter@29b812d2
+	java.lang.String -> java.time.Duration: org.springframework.format.datetime.standard.DurationFormatter@745a460f
+	java.lang.String -> java.time.Instant: org.springframework.format.datetime.standard.InstantFormatter@6fb65315
+	java.lang.String -> java.time.Month: org.springframework.format.datetime.standard.MonthFormatter@388eac58
+	java.lang.String -> java.time.MonthDay: org.springframework.format.datetime.standard.MonthDayFormatter@39c84359
+	java.lang.String -> java.time.Period: org.springframework.format.datetime.standard.PeriodFormatter@5b7f8a43
+	java.lang.String -> java.time.Year: org.springframework.format.datetime.standard.YearFormatter@657d6519
+	java.lang.String -> java.time.YearMonth: org.springframework.format.datetime.standard.YearMonthFormatter@1f841498
+	java.lang.String -> java.util.Currency : org.springframework.core.convert.support.StringToCurrencyConverter@6e349410
+	java.lang.String -> java.util.Locale : org.springframework.core.convert.support.StringToLocaleConverter@7d4f6664
+	java.lang.String -> java.util.Properties : org.springframework.core.convert.support.StringToPropertiesConverter@6eb13d68
+	java.lang.String -> java.util.TimeZone : org.springframework.core.convert.support.StringToTimeZoneConverter@7279fe48
+	java.lang.String -> java.util.UUID : org.springframework.core.convert.support.StringToUUIDConverter@39251215
+	java.lang.String -> org.joda.time.Duration: org.springframework.format.datetime.joda.DurationFormatter@65f212a7
+	java.lang.String -> org.joda.time.MonthDay: org.springframework.format.datetime.joda.MonthDayFormatter@504f122b
+	java.lang.String -> org.joda.time.Period: org.springframework.format.datetime.joda.PeriodFormatter@7185dd7e
+	java.lang.String -> org.joda.time.YearMonth: org.springframework.format.datetime.joda.YearMonthFormatter@640d9046
+	java.lang.String -> org.springframework.data.geo.Distance: INSTANCE
+	java.lang.String -> org.springframework.data.geo.Point: INSTANCE
+	java.nio.charset.Charset -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@68ceb32b
+	java.time.Duration -> java.lang.String : org.springframework.format.datetime.standard.DurationFormatter@745a460f
+	java.time.Instant -> java.lang.Long : org.springframework.format.datetime.standard.DateTimeConverters$InstantToLongConverter@58d66f69
+	java.time.Instant -> java.lang.String : org.springframework.format.datetime.standard.InstantFormatter@6fb65315
+	java.time.LocalDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$LocalDateTimeToLocalDateConverter@1625ebd8
+	java.time.LocalDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$LocalDateTimeToLocalTimeConverter@432eb7c6
+	java.time.Month -> java.lang.String : org.springframework.format.datetime.standard.MonthFormatter@388eac58
+	java.time.MonthDay -> java.lang.String : org.springframework.format.datetime.standard.MonthDayFormatter@39c84359
+	java.time.OffsetDateTime -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToInstantConverter@4fbeba1
+	java.time.OffsetDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalDateConverter@2c641d50
+	java.time.OffsetDateTime -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalDateTimeConverter@2a9e5fd3
+	java.time.OffsetDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToLocalTimeConverter@306e96a
+	java.time.OffsetDateTime -> java.time.ZonedDateTime : org.springframework.format.datetime.standard.DateTimeConverters$OffsetDateTimeToZonedDateTimeConverter@8f9e973
+	java.time.Period -> java.lang.String : org.springframework.format.datetime.standard.PeriodFormatter@5b7f8a43
+	java.time.Year -> java.lang.String : org.springframework.format.datetime.standard.YearFormatter@657d6519
+	java.time.YearMonth -> java.lang.String : org.springframework.format.datetime.standard.YearMonthFormatter@1f841498
+	java.time.ZoneId -> java.util.TimeZone : org.springframework.core.convert.support.ZoneIdToTimeZoneConverter@6b40ae67
+	java.time.ZonedDateTime -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToInstantConverter@28315e85
+	java.time.ZonedDateTime -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalDateConverter@271b2b79
+	java.time.ZonedDateTime -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalDateTimeConverter@6029fc9a
+	java.time.ZonedDateTime -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToLocalTimeConverter@596bb744
+	java.time.ZonedDateTime -> java.time.OffsetDateTime : org.springframework.format.datetime.standard.DateTimeConverters$ZonedDateTimeToOffsetDateTimeConverter@560ff7de
+	java.time.ZonedDateTime -> java.util.Calendar : org.springframework.core.convert.support.ZonedDateTimeToCalendarConverter@bf80dcb
+	java.util.Calendar -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToLongConverter@697ef0be,java.util.Calendar -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToLongConverter@1cc53ebe
+	java.util.Calendar -> java.time.Instant : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToInstantConverter@691f05d9
+	java.util.Calendar -> java.time.LocalDate : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalDateConverter@2fcf60ec
+	java.util.Calendar -> java.time.LocalDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalDateTimeConverter@54ef345b
+	java.util.Calendar -> java.time.LocalTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToLocalTimeConverter@74b23057
+	java.util.Calendar -> java.time.OffsetDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToOffsetDateTimeConverter@683abee9
+	java.util.Calendar -> java.time.ZonedDateTime : org.springframework.format.datetime.standard.DateTimeConverters$CalendarToZonedDateTimeConverter@30821fed
+	java.util.Calendar -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToDateConverter@3daf0ab6,java.util.Calendar -> java.util.Date : org.springframework.format.datetime.DateFormatterRegistrar$CalendarToDateConverter@2179e631
+	java.util.Calendar -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$CalendarToReadableInstantConverter@5fa97251
+	java.util.Currency -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@7f691c6
+	java.util.Date -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$DateToLongConverter@24e56d6,java.util.Date -> java.lang.Long : org.springframework.format.datetime.DateFormatterRegistrar$DateToLongConverter@2d863993
+	java.util.Date -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$DateToCalendarConverter@6de4a56d,java.util.Date -> java.util.Calendar : org.springframework.format.datetime.DateFormatterRegistrar$DateToCalendarConverter@4d271d22
+	java.util.Date -> org.joda.time.ReadableInstant : org.springframework.format.datetime.joda.JodaTimeConverters$DateToReadableInstantConverter@6f387936
+	java.util.Locale -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@58763bb3
+	java.util.Properties -> java.lang.String : org.springframework.core.convert.support.PropertiesToStringConverter@737b8c7e
+	java.util.UUID -> java.lang.String : org.springframework.core.convert.support.ObjectToStringConverter@aeecc56
+	org.joda.time.DateTime -> java.lang.Long : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLongConverter@5a28d42
+	org.joda.time.DateTime -> java.util.Calendar : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToCalendarConverter@4e416abb
+	org.joda.time.DateTime -> java.util.Date : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateConverter@545c8fb7
+	org.joda.time.DateTime -> org.joda.time.DateMidnight : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToDateMidnightConverter@3e84906f
+	org.joda.time.DateTime -> org.joda.time.Instant : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToInstantConverter@7f52a444
+	org.joda.time.DateTime -> org.joda.time.LocalDate : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateConverter@3793bcd4
+	org.joda.time.DateTime -> org.joda.time.LocalDateTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalDateTimeConverter@452dc118
+	org.joda.time.DateTime -> org.joda.time.LocalTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToLocalTimeConverter@7a323a12
+	org.joda.time.DateTime -> org.joda.time.MutableDateTime : org.springframework.format.datetime.joda.JodaTimeConverters$DateTimeToMutableDateTimeConverter@145bfe77
+	org.joda.time.Duration -> java.lang.String : org.springframework.format.datetime.joda.DurationFormatter@65f212a7
+	org.joda.time.LocalDateTime -> org.joda.time.LocalDate : org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalDateConverter@b21892d
+	org.joda.time.LocalDateTime -> org.joda.time.LocalTime : org.springframework.format.datetime.joda.JodaTimeConverters$LocalDateTimeToLocalTimeConverter@27fcb0b6
+	org.joda.time.MonthDay -> java.lang.String : org.springframework.format.datetime.joda.MonthDayFormatter@504f122b
+	org.joda.time.Period -> java.lang.String : org.springframework.format.datetime.joda.PeriodFormatter@7185dd7e
+	org.joda.time.YearMonth -> java.lang.String : org.springframework.format.datetime.joda.YearMonthFormatter@640d9046
+	org.springframework.core.convert.support.ArrayToArrayConverter@53c09455
+	org.springframework.core.convert.support.ArrayToCollectionConverter@6d53fa1e
+	org.springframework.core.convert.support.ArrayToObjectConverter@4087e116
+	org.springframework.core.convert.support.ArrayToStringConverter@3b5e23c8
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.ByteBufferConverter@7a5e653c
+	org.springframework.core.convert.support.CollectionToArrayConverter@426493b6
+	org.springframework.core.convert.support.CollectionToCollectionConverter@2fb06e07
+	org.springframework.core.convert.support.CollectionToObjectConverter@10730b94
+	org.springframework.core.convert.support.CollectionToStringConverter@580944c2
+	org.springframework.core.convert.support.FallbackObjectToStringConverter@2f73c3d2
+	org.springframework.core.convert.support.MapToMapConverter@5dc1f2e5
+	org.springframework.core.convert.support.ObjectToArrayConverter@12836539
+	org.springframework.core.convert.support.ObjectToCollectionConverter@19d01e0e
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.ObjectToOptionalConverter@16272804
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StreamConverter@b6d76a2
+	org.springframework.core.convert.support.StringToArrayConverter@6c6b7aca
+	org.springframework.core.convert.support.StringToCollectionConverter@6f83c823
+	org.springframework.data.geo.Distance -> java.lang.String : INSTANCE
+	org.springframework.data.geo.Point -> java.lang.String : INSTANCE
+	org.springframework.data.repository.support.DomainClassConverter$ToIdConverter@286ee0d,org.springframework.data.repository.support.DomainClassConverter$ToEntityConverter@3f30cbab,org.springframework.core.convert.support.IdToEntityConverter@51ed79bc,org.springframework.core.convert.support.ObjectToObjectConverter@1a30b01f
+] to model
